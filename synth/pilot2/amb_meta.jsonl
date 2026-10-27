@@ -1,0 +1,3 @@
+{"id": "support_triage-d0003", "family": "support_triage", "style": "ambiguous", "realism": 3, "persona": "angry power user", "corruptions": ["two unrelated topics in one message", "contradicts itself or changes its mind halfway", "very terse, a few words"], "alt": {"team": "billing"}}
+{"id": "support_triage-d0006", "family": "support_triage", "style": "ambiguous", "realism": 3, "persona": "someone typing in a hurry on mobile", "corruptions": ["truncated mid-sentence", "leftover HTML tags / entities (&nbsp; <br>)"], "alt": {"escalate": "true"}}
+{"id": "support_triage-d0012", "family": "support_triage", "style": "ambiguous", "realism": 5, "persona": "corporate boilerplate writer", "corruptions": ["two unrelated topics in one message"], "alt": {"escalate": "true"}}

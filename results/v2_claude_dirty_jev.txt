@@ -1,0 +1,47 @@
+458 rows, engines: 2b=http://127.0.0.1:8765, 08b=http://127.0.0.1:8766
+engine 2b ...
+  25/458 rows
+  50/458 rows
+  75/458 rows
+  100/458 rows
+  125/458 rows
+  150/458 rows
+  175/458 rows
+  200/458 rows
+  225/458 rows
+  250/458 rows
+  275/458 rows
+  300/458 rows
+  325/458 rows
+  350/458 rows
+  375/458 rows
+  400/458 rows
+  425/458 rows
+  450/458 rows
+engine 08b ...
+  25/458 rows
+  50/458 rows
+  75/458 rows
+  100/458 rows
+  125/458 rows
+  150/458 rows
+  175/458 rows
+  200/458 rows
+  225/458 rows
+  250/458 rows
+  275/458 rows
+  300/458 rows
+  325/458 rows
+  350/458 rows
+  375/458 rows
+  400/458 rows
+  425/458 rows
+  450/458 rows
+972 questions answered by every engine; the table and the differences use only those.
+
+engine             answered failed rows     acc   brier log loss    ece   automate @5% error
+2b                      972           0   82.8%   0.245    0.446  0.061    64.5% (p>=0.71)
+08b                     972           0   79.8%   0.313    0.565  0.109    45.3% (p>=0.74)
+
+difference to 2b (95 % paired bootstrap over rows; brier: lower is better):
+  08b              accuracy  -3.0 pts [-5.8, -0.2]   brier +0.067 [+0.047, +0.087]

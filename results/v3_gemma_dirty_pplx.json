@@ -1,0 +1,5074 @@
+{
+ "reference": "pplx",
+ "common_questions": 439,
+ "engines": {
+  "pplx": {
+   "answered": 439,
+   "failed_rows": 0,
+   "errors": [],
+   "summary": {
+    "n": 439,
+    "accuracy": 0.8382687927107062,
+    "brier": 0.22577920341863406,
+    "log_loss": 0.39429334003048044,
+    "ece": 0.032326786051726245,
+    "automation": {
+     "1%": {
+      "coverage": 0.47380410022779046,
+      "threshold": 0.9484386408759704
+     },
+     "5%": {
+      "coverage": 0.6537585421412301,
+      "threshold": 0.8404038924611119
+     },
+     "10%": {
+      "coverage": 0.826879271070615,
+      "threshold": 0.635903000831604
+     }
+    }
+   }
+  }
+ },
+ "vs_reference": {},
+ "results": {
+  "pplx": [
+   {
+    "row": 0,
+    "qid": "team",
+    "type": "choice",
+    "probs": {
+     "billing": 0.6201381466046928,
+     "shipping": 0.3777659701058225,
+     "returns": 0.0010494114463365583,
+     "account": 0.0004989392880605621,
+     "product": 0.0005475325550875511
+    },
+    "label": "billing"
+   },
+   {
+    "row": 0,
+    "qid": "escalate",
+    "type": "noul",
+    "probs": {
+     "false": 0.885403507311616,
+     "true": 0.11459649268838396
+    },
+    "label": "false"
+   },
+   {
+    "row": 0,
+    "qid": "mood",
+    "type": "score",
+    "probs": {
+     "0": 0.6865895554937469,
+     "1": 0.30682502248260285,
+     "2": 0.0065854220236502715
+    },
+    "label": "1"
+   },
+   {
+    "row": 1,
+    "qid": "team",
+    "type": "choice",
+    "probs": {
+     "billing": 0.9983478827672623,
+     "shipping": 0.0002980643779803446,
+     "returns": 5.594858181725055e-05,
+     "account": 0.0011649044513714819,
+     "product": 0.0001331998215686624
+    },
+    "label": "billing"
+   },
+   {
+    "row": 1,
+    "qid": "escalate",
+    "type": "noul",
+    "probs": {
+     "false": 0.7293513199880326,
+     "true": 0.2706486800119674
+    },
+    "label": "true"
+   },
+   {
+    "row": 2,
+    "qid": "team",
+    "type": "choice",
+    "probs": {
+     "billing": 0.00014152028461430891,
+     "shipping": 0.002603176222775099,
+     "returns": 0.9969853829614181,
+     "account": 2.275240802777009e-05,
+     "product": 0.0002471681231647289
+    },
+    "label": "returns"
+   },
+   {
+    "row": 3,
+    "qid": "team",
+    "type": "choice",
+    "probs": {
+     "billing": 0.00028969594494954523,
+     "shipping": 0.0865954385801139,
+     "returns": 0.0009401512459964342,
+     "account": 0.0001511493743279581,
+     "product": 0.9120235648546122
+    },
+    "label": "product"
+   },
+   {
+    "row": 3,
+    "qid": "escalate",
+    "type": "noul",
+    "probs": {
+     "false": 0.9957320191480091,
+     "true": 0.004267980851990915
+    },
+    "label": "false"
+   },
+   {
+    "row": 3,
+    "qid": "mood",
+    "type": "score",
+    "probs": {
+     "0": 0.902165994925895,
+     "1": 0.09695988638333403,
+     "2": 0.0008741186907709939
+    },
+    "label": "0"
+   },
+   {
+    "row": 4,
+    "qid": "team",
+    "type": "choice",
+    "probs": {
+     "billing": 0.0001333531761894517,
+     "shipping": 0.9994972285317203,
+     "returns": 0.00029840752677191764,
+     "account": 1.8362915468046586e-05,
+     "product": 5.264784985028781e-05
+    },
+    "label": "shipping"
+   },
+   {
+    "row": 5,
+    "qid": "team",
+    "type": "choice",
+    "probs": {
+     "billing": 0.9964841296128047,
+     "shipping": 5.248913495559406e-05,
+     "returns": 8.616575093647873e-05,
+     "account": 0.003333629704384225,
+     "product": 4.358579691893942e-05
+    },
+    "label": "billing"
+   },
+   {
+    "row": 6,
+    "qid": "team",
+    "type": "choice",
+    "probs": {
+     "billing": 0.9649702375209593,
+     "shipping": 0.019466980879946066,
+     "returns": 0.0002880995116261914,
+     "account": 0.015193786559525873,
+     "product": 8.089552794248166e-05
+    },
+    "label": "billing"
+   },
+   {
+    "row": 6,
+    "qid": "escalate",
+    "type": "noul",
+    "probs": {
+     "false": 0.9679446544926684,
+     "true": 0.0320553455073316
+    },
+    "label": "false"
+   },
+   {
+    "row": 6,
+    "qid": "mood",
+    "type": "score",
+    "probs": {
+     "0": 0.5416757878844362,
+     "1": 0.44979535025299283,
+     "2": 0.008528861862570954
+    },
+    "label": "1"
+   },
+   {
+    "row": 7,
+    "qid": "team",
+    "type": "choice",
+    "probs": {
+     "billing": 0.9998119344606174,
+     "shipping": 4.110406682007612e-05,
+     "returns": 9.197952631134296e-05,
+     "account": 2.6639597874706757e-05,
+     "product": 2.834234837645356e-05
+    },
+    "label": "billing"
+   },
+   {
+    "row": 8,
+    "qid": "team",
+    "type": "choice",
+    "probs": {
+     "billing": 9.190583168316519e-05,
+     "shipping": 0.0008037654540239262,
+     "returns": 0.9990099925153438,
+     "account": 7.951880638408303e-06,
+     "product": 8.638431831068177e-05
+    },
+    "label": "returns"
+   },
+   {
+    "row": 8,
+    "qid": "escalate",
+    "type": "noul",
+    "probs": {
+     "false": 0.7531066873568306,
+     "true": 0.24689331264316944
+    },
+    "label": "true"
+   },
+   {
+    "row": 9,
+    "qid": "escalate",
+    "type": "noul",
+    "probs": {
+     "false": 0.9776748186973787,
+     "true": 0.022325181302621264
+    },
+    "label": "false"
+   },
+   {
+    "row": 10,
+    "qid": "team",
+    "type": "choice",
+    "probs": {
+     "billing": 0.0166282193857856,
+     "shipping": 0.6844418879959682,
+     "returns": 0.2874895432974928,
+     "account": 0.0013110238810479693,
+     "product": 0.010129325439705397
+    },
+    "label": "returns"
+   },
+   {
+    "row": 11,
+    "qid": "team",
+    "type": "choice",
+    "probs": {
+     "billing": 0.007843789441786183,
+     "shipping": 0.0004008052136973082,
+     "returns": 0.8177856966493142,
+     "account": 0.1737540078621799,
+     "product": 0.0002157008330223968
+    },
+    "label": "returns"
+   },
+   {
+    "row": 11,
+    "qid": "escalate",
+    "type": "noul",
+    "probs": {
+     "false": 0.9862805770272858,
+     "true": 0.013719422972714168
+    },
+    "label": "false"
+   },
+   {
+    "row": 12,
+    "qid": "team",
+    "type": "choice",
+    "probs": {
+     "billing": 0.00012534650949468746,
+     "shipping": 0.9995364612705369,
+     "returns": 0.00021892029620528943,
+     "account": 2.1440210502747108e-05,
+     "product": 9.783171326038562e-05
+    },
+    "label": "shipping"
+   },
+   {
+    "row": 12,
+    "qid": "escalate",
+    "type": "noul",
+    "probs": {
+     "false": 0.8651513328380684,
+     "true": 0.13484866716193158
+    },
+    "label": "false"
+   },
+   {
+    "row": 13,
+    "qid": "team",
+    "type": "choice",
+    "probs": {
+     "billing": 0.00013335612080127125,
+     "shipping": 0.9995193308033496,
+     "returns": 0.00020576448521281843,
+     "account": 4.371855463070901e-05,
+     "product": 9.783003600550204e-05
+    },
+    "label": "shipping"
+   },
+   {
+    "row": 13,
+    "qid": "escalate",
+    "type": "noul",
+    "probs": {
+     "false": 0.8789652716959309,
+     "true": 0.12103472830406917
+    },
+    "label": "false"
+   },
+   {
+    "row": 14,
+    "qid": "team",
+    "type": "choice",
+    "probs": {
+     "billing": 0.001165142562924795,
+     "shipping": 0.9985519456499176,
+     "returns": 0.00021870467185346808,
+     "account": 1.476903676897253e-05,
+     "product": 4.9438078535235474e-05
+    },
+    "label": "shipping"
+   },
+   {
+    "row": 15,
+    "qid": "team",
+    "type": "choice",
+    "probs": {
+     "billing": 0.9998394539633426,
+     "shipping": 3.413285693012665e-05,
+     "returns": 9.786145811412152e-05,
+     "account": 9.008377024712002e-06,
+     "product": 1.954334458841814e-05
+    },
+    "label": "billing"
+   },
+   {
+    "row": 15,
+    "qid": "escalate",
+    "type": "noul",
+    "probs": {
+     "false": 0.635903000831604,
+     "true": 0.364096999168396
+    },
+    "label": "false"
+   },
+   {
+    "row": 15,
+    "qid": "mood",
+    "type": "score",
+    "probs": {
+     "0": 0.17110781562821362,
+     "1": 0.805330404698816,
+     "2": 0.023561779672970396
+    },
+    "label": "1"
+   },
+   {
+    "row": 16,
+    "qid": "team",
+    "type": "choice",
+    "probs": {
+     "billing": 0.00010409780386676146,
+     "shipping": 3.207644302401472e-05,
+     "returns": 5.265648801687873e-05,
+     "account": 0.9996601991772985,
+     "product": 0.0001509700877937685
+    },
+    "label": "account"
+   },
+   {
+    "row": 16,
+    "qid": "escalate",
+    "type": "noul",
+    "probs": {
+     "false": 0.9776748186973787,
+     "true": 0.022325181302621264
+    },
+    "label": "false"
+   },
+   {
+    "row": 16,
+    "qid": "mood",
+    "type": "score",
+    "probs": {
+     "0": 0.7102904764350282,
+     "1": 0.280422777228268,
+     "2": 0.009286746336703807
+    },
+    "label": "1"
+   },
+   {
+    "row": 17,
+    "qid": "team",
+    "type": "choice",
+    "probs": {
+     "billing": 0.0004584138858011535,
+     "shipping": 0.3928704604795938,
+     "returns": 0.6061873505396862,
+     "account": 0.00018667643812535036,
+     "product": 0.00029709865679348357
+    },
+    "label": "returns"
+   },
+   {
+    "row": 17,
+    "qid": "escalate",
+    "type": "noul",
+    "probs": {
+     "false": 0.9885811274126804,
+     "true": 0.011418872587319565
+    },
+    "label": "false"
+   },
+   {
+    "row": 18,
+    "qid": "team",
+    "type": "choice",
+    "probs": {
+     "billing": 9.190045278606663e-05,
+     "shipping": 0.0008037191035459281,
+     "returns": 0.9989523930753677,
+     "account": 1.0187728592746644e-05,
+     "product": 0.000141799639707625
+    },
+    "label": "returns"
+   },
+   {
+    "row": 19,
+    "qid": "escalate",
+    "type": "noul",
+    "probs": {
+     "false": 0.9484385887976534,
+     "true": 0.05156141120234654
+    },
+    "label": "false"
+   },
+   {
+    "row": 20,
+    "qid": "team",
+    "type": "choice",
+    "probs": {
+     "billing": 0.00011781964353010832,
+     "shipping": 0.9995677144505637,
+     "returns": 0.00020577445240152535,
+     "account": 1.6734395377648803e-05,
+     "product": 9.195705812701492e-05
+    },
+    "label": "shipping"
+   },
+   {
+    "row": 21,
+    "qid": "escalate",
+    "type": "noul",
+    "probs": {
+     "false": 0.9659654749995408,
+     "true": 0.03403452500045923
+    },
+    "label": "false"
+   },
+   {
+    "row": 22,
+    "qid": "team",
+    "type": "choice",
+    "probs": {
+     "billing": 7.626400779439377e-05,
+     "shipping": 7.168222068633445e-05,
+     "returns": 0.0014924926814038903,
+     "account": 3.625945973280579e-05,
+     "product": 0.9983233016303825
+    },
+    "label": "product"
+   },
+   {
+    "row": 22,
+    "qid": "escalate",
+    "type": "noul",
+    "probs": {
+     "false": 0.9992897118222523,
+     "true": 0.0007102881777476429
+    },
+    "label": "false"
+   },
+   {
+    "row": 23,
+    "qid": "team",
+    "type": "choice",
+    "probs": {
+     "billing": 0.9997806800386705,
+     "shipping": 4.652511982943875e-05,
+     "returns": 0.0001253772454644585,
+     "account": 1.726460263440857e-05,
+     "product": 3.0152993401170272e-05
+    },
+    "label": "billing"
+   },
+   {
+    "row": 24,
+    "qid": "escalate",
+    "type": "noul",
+    "probs": {
+     "false": 0.9930128496778736,
+     "true": 0.006987150322126389
+    },
+    "label": "false"
+   },
+   {
+    "row": 25,
+    "qid": "escalate",
+    "type": "noul",
+    "probs": {
+     "false": 0.5,
+     "true": 0.5
+    },
+    "label": "false"
+   },
+   {
+    "row": 26,
+    "qid": "team",
+    "type": "choice",
+    "probs": {
+     "billing": 0.9995473317402777,
+     "shipping": 0.00010408604946261663,
+     "returns": 0.00011073912629703937,
+     "account": 0.00020577026187777007,
+     "product": 3.207282208494796e-05
+    },
+    "label": "billing"
+   },
+   {
+    "row": 27,
+    "qid": "team",
+    "type": "choice",
+    "probs": {
+     "billing": 7.171106850544286e-05,
+     "shipping": 0.0010953330432907375,
+     "returns": 0.9987250180951842,
+     "account": 1.018540955197482e-05,
+     "product": 9.775238346765876e-05
+    },
+    "label": "returns"
+   },
+   {
+    "row": 27,
+    "qid": "escalate",
+    "type": "noul",
+    "probs": {
+     "false": 0.9513857052143129,
+     "true": 0.04861429478568717
+    },
+    "label": "false"
+   },
+   {
+    "row": 28,
+    "qid": "team",
+    "type": "choice",
+    "probs": {
+     "billing": 5.602963688105046e-05,
+     "shipping": 2.079155410273504e-05,
+     "returns": 3.2080712240368996e-05,
+     "account": 0.9997932411633026,
+     "product": 9.785693347325787e-05
+    },
+    "label": "account"
+   },
+   {
+    "row": 28,
+    "qid": "escalate",
+    "type": "noul",
+    "probs": {
+     "false": 0.9385532526995259,
+     "true": 0.06144674730047403
+    },
+    "label": "false"
+   },
+   {
+    "row": 29,
+    "qid": "team",
+    "type": "choice",
+    "probs": {
+     "billing": 0.00029826110851698915,
+     "shipping": 0.00031732566118577993,
+     "returns": 0.9990068715563358,
+     "account": 1.8353904386294795e-05,
+     "product": 0.0003591877695751182
+    },
+    "label": "returns"
+   },
+   {
+    "row": 29,
+    "qid": "escalate",
+    "type": "noul",
+    "probs": {
+     "false": 0.980225286935835,
+     "true": 0.01977471306416496
+    },
+    "label": "false"
+   },
+   {
+    "row": 30,
+    "qid": "mood",
+    "type": "score",
+    "probs": {
+     "0": 0.0015795280491945926,
+     "1": 0.06501569421045852,
+     "2": 0.9334047777403469
+    },
+    "label": "2"
+   },
+   {
+    "row": 31,
+    "qid": "team",
+    "type": "choice",
+    "probs": {
+     "billing": 8.124781094669664e-05,
+     "shipping": 2.663572584816369e-05,
+     "returns": 4.3724995036173455e-05,
+     "account": 0.9996665813218361,
+     "product": 0.0001818101463328653
+    },
+    "label": "account"
+   },
+   {
+    "row": 31,
+    "qid": "escalate",
+    "type": "noul",
+    "probs": {
+     "false": 0.9789878859361921,
+     "true": 0.02101211406380788
+    },
+    "label": "false"
+   },
+   {
+    "row": 31,
+    "qid": "mood",
+    "type": "score",
+    "probs": {
+     "0": 0.3746590825109956,
+     "1": 0.6150379633754967,
+     "2": 0.010302954113507781
+    },
+    "label": "1"
+   },
+   {
+    "row": 32,
+    "qid": "escalate",
+    "type": "noul",
+    "probs": {
+     "false": 0.9934298650541541,
+     "true": 0.006570134945845894
+    },
+    "label": "false"
+   },
+   {
+    "row": 32,
+    "qid": "mood",
+    "type": "score",
+    "probs": {
+     "0": 0.8943497255371039,
+     "1": 0.10226361874773815,
+     "2": 0.003386655715157935
+    },
+    "label": "1"
+   },
+   {
+    "row": 33,
+    "qid": "team",
+    "type": "choice",
+    "probs": {
+     "billing": 8.644272362706088e-05,
+     "shipping": 0.9996862807459707,
+     "returns": 0.00013337839282815276,
+     "account": 2.211812076279253e-05,
+     "product": 7.178001681133513e-05
+    },
+    "label": "shipping"
+   },
+   {
+    "row": 33,
+    "qid": "escalate",
+    "type": "noul",
+    "probs": {
+     "false": 0.8789652716959309,
+     "true": 0.12103472830406917
+    },
+    "label": "false"
+   },
+   {
+    "row": 34,
+    "qid": "team",
+    "type": "choice",
+    "probs": {
+     "billing": 0.00016349646528607655,
+     "shipping": 0.04317622840319967,
+     "returns": 0.9564308986066921,
+     "account": 9.361275167176388e-05,
+     "product": 0.00013576377315039227
+    },
+    "label": "returns"
+   },
+   {
+    "row": 34,
+    "qid": "escalate",
+    "type": "noul",
+    "probs": {
+     "false": 0.980225286935835,
+     "true": 0.01977471306416496
+    },
+    "label": "false"
+   },
+   {
+    "row": 34,
+    "qid": "mood",
+    "type": "score",
+    "probs": {
+     "0": 0.6273407713973982,
+     "1": 0.359194538545283,
+     "2": 0.01346469005731881
+    },
+    "label": "1"
+   },
+   {
+    "row": 35,
+    "qid": "team",
+    "type": "choice",
+    "probs": {
+     "billing": 0.9996301040989403,
+     "shipping": 4.109659173603554e-05,
+     "returns": 6.341080073438519e-05,
+     "account": 0.0002057872938004891,
+     "product": 5.9601214788875644e-05
+    },
+    "label": "billing"
+   },
+   {
+    "row": 35,
+    "qid": "escalate",
+    "type": "noul",
+    "probs": {
+     "false": 0.8577580963228999,
+     "true": 0.14224190367710016
+    },
+    "label": "false"
+   },
+   {
+    "row": 36,
+    "qid": "team",
+    "type": "choice",
+    "probs": {
+     "billing": 0.0001253500223239836,
+     "shipping": 0.9995644622405704,
+     "returns": 0.0001934113230086757,
+     "account": 1.8941960535871335e-05,
+     "product": 9.783445356112635e-05
+    },
+    "label": "shipping"
+   },
+   {
+    "row": 36,
+    "qid": "escalate",
+    "type": "noul",
+    "probs": {
+     "false": 0.7754190217516264,
+     "true": 0.22458097824837364
+    },
+    "label": "false"
+   },
+   {
+    "row": 37,
+    "qid": "team",
+    "type": "choice",
+    "probs": {
+     "billing": 0.00013311831760763593,
+     "shipping": 0.001796310909468929,
+     "returns": 0.9977369450231405,
+     "account": 1.6703745369291854e-05,
+     "product": 0.0003169220044137142
+    },
+    "label": "returns"
+   },
+   {
+    "row": 37,
+    "qid": "escalate",
+    "type": "noul",
+    "probs": {
+     "false": 0.9844987456678159,
+     "true": 0.015501254332184092
+    },
+    "label": "false"
+   },
+   {
+    "row": 37,
+    "qid": "mood",
+    "type": "score",
+    "probs": {
+     "0": 0.20730466677312553,
+     "1": 0.715768440460374,
+     "2": 0.07692689276650043
+    },
+    "label": "1"
+   },
+   {
+    "row": 38,
+    "qid": "team",
+    "type": "choice",
+    "probs": {
+     "billing": 0.0008549765923043089,
+     "shipping": 5.597501170710583e-05,
+     "returns": 7.630183770328467e-05,
+     "account": 0.998819479561138,
+     "product": 0.00019326699714726197
+    },
+    "label": "account"
+   },
+   {
+    "row": 38,
+    "qid": "mood",
+    "type": "score",
+    "probs": {
+     "0": 0.002262248626040547,
+     "1": 0.32151013163602726,
+     "2": 0.6762276197379322
+    },
+    "label": "2"
+   },
+   {
+    "row": 39,
+    "qid": "escalate",
+    "type": "noul",
+    "probs": {
+     "false": 0.9420308435091556,
+     "true": 0.05796915649084443
+    },
+    "label": "false"
+   },
+   {
+    "row": 40,
+    "qid": "escalate",
+    "type": "noul",
+    "probs": {
+     "false": 0.9862805770272858,
+     "true": 0.013719422972714168
+    },
+    "label": "false"
+   },
+   {
+    "row": 41,
+    "qid": "team",
+    "type": "choice",
+    "probs": {
+     "billing": 0.9998375305346724,
+     "shipping": 1.9543306075332477e-05,
+     "returns": 4.373251851157329e-05,
+     "account": 4.65278104954808e-05,
+     "product": 5.266583024523567e-05
+    },
+    "label": "billing"
+   },
+   {
+    "row": 41,
+    "qid": "escalate",
+    "type": "noul",
+    "probs": {
+     "false": 0.9180676409458193,
+     "true": 0.08193235905418067
+    },
+    "label": "false"
+   },
+   {
+    "row": 41,
+    "qid": "mood",
+    "type": "score",
+    "probs": {
+     "0": 0.9000626474637582,
+     "1": 0.09673382630150992,
+     "2": 0.00320352623473186
+    },
+    "label": "1"
+   },
+   {
+    "row": 42,
+    "qid": "team",
+    "type": "choice",
+    "probs": {
+     "billing": 0.0004886570497870538,
+     "shipping": 0.9970348112820906,
+     "returns": 0.00013302463222174507,
+     "account": 0.002299897151139971,
+     "product": 4.360988476066058e-05
+    },
+    "label": "shipping"
+   },
+   {
+    "row": 42,
+    "qid": "escalate",
+    "type": "noul",
+    "probs": {
+     "false": 0.8651513328380684,
+     "true": 0.13484866716193158
+    },
+    "label": "true"
+   },
+   {
+    "row": 43,
+    "qid": "team",
+    "type": "choice",
+    "probs": {
+     "billing": 0.00017079741191209204,
+     "shipping": 0.9991403626137639,
+     "returns": 0.00040662669144584583,
+     "account": 0.0002188335450923522,
+     "product": 6.3379737785829e-05
+    },
+    "label": "shipping"
+   },
+   {
+    "row": 44,
+    "qid": "team",
+    "type": "choice",
+    "probs": {
+     "billing": 0.9984693801472886,
+     "shipping": 0.0001706827114973634,
+     "returns": 8.633749979757736e-05,
+     "account": 0.0012395135891680152,
+     "product": 3.408605224842782e-05
+    },
+    "label": "billing"
+   },
+   {
+    "row": 44,
+    "qid": "escalate",
+    "type": "noul",
+    "probs": {
+     "false": 0.9226090289392973,
+     "true": 0.07739097106070265
+    },
+    "label": "false"
+   },
+   {
+    "row": 44,
+    "qid": "mood",
+    "type": "score",
+    "probs": {
+     "0": 0.883707067946051,
+     "1": 0.1143769199920542,
+     "2": 0.001916012061894816
+    },
+    "label": "1"
+   },
+   {
+    "row": 45,
+    "qid": "team",
+    "type": "choice",
+    "probs": {
+     "billing": 0.0001509544112611942,
+     "shipping": 0.9995574502416547,
+     "returns": 0.0002057723352972274,
+     "account": 1.836402070469727e-05,
+     "product": 6.745899108224929e-05
+    },
+    "label": "shipping"
+   },
+   {
+    "row": 46,
+    "qid": "team",
+    "type": "choice",
+    "probs": {
+     "billing": 0.9998905867885933,
+     "shipping": 2.0793578871694295e-05,
+     "returns": 5.961674610831722e-05,
+     "account": 8.209307554979008e-06,
+     "product": 2.0793578871694295e-05
+    },
+    "label": "billing"
+   },
+   {
+    "row": 46,
+    "qid": "escalate",
+    "type": "noul",
+    "probs": {
+     "false": 0.9082506827395358,
+     "true": 0.09174931726046415
+    },
+    "label": "false"
+   },
+   {
+    "row": 47,
+    "qid": "escalate",
+    "type": "noul",
+    "probs": {
+     "false": 0.9844987456678159,
+     "true": 0.015501254332184092
+    },
+    "label": "false"
+   },
+   {
+    "row": 48,
+    "qid": "team",
+    "type": "choice",
+    "probs": {
+     "billing": 0.00010409444743185502,
+     "shipping": 0.9996280118992003,
+     "returns": 0.00014189554531464488,
+     "account": 1.5250146202628737e-05,
+     "product": 0.00011074796185065526
+    },
+    "label": "shipping"
+   },
+   {
+    "row": 48,
+    "qid": "escalate",
+    "type": "noul",
+    "probs": {
+     "false": 0.9029553667151238,
+     "true": 0.09704463328487625
+    },
+    "label": "false"
+   },
+   {
+    "row": 48,
+    "qid": "mood",
+    "type": "score",
+    "probs": {
+     "0": 0.7152331269944067,
+     "1": 0.2823741356452763,
+     "2": 0.0023927373603169757
+    },
+    "label": "1"
+   },
+   {
+    "row": 49,
+    "qid": "escalate",
+    "type": "noul",
+    "probs": {
+     "false": 0.8061277981920363,
+     "true": 0.19387220180796375
+    },
+    "label": "false"
+   },
+   {
+    "row": 49,
+    "qid": "mood",
+    "type": "score",
+    "probs": {
+     "0": 0.8359944391752411,
+     "1": 0.15692164318060067,
+     "2": 0.007083917644158219
+    },
+    "label": "1"
+   },
+   {
+    "row": 50,
+    "qid": "team",
+    "type": "choice",
+    "probs": {
+     "billing": 0.0005914987953699834,
+     "shipping": 0.00038335114092659985,
+     "returns": 0.0006695301805921494,
+     "account": 0.8321681558868866,
+     "product": 0.16618746399622458
+    },
+    "label": "account"
+   },
+   {
+    "row": 50,
+    "qid": "escalate",
+    "type": "noul",
+    "probs": {
+     "false": 0.9748038525598127,
+     "true": 0.025196147440187323
+    },
+    "label": "false"
+   },
+   {
+    "row": 51,
+    "qid": "destructive",
+    "type": "noul",
+    "probs": {
+     "false": 0.9835242600911336,
+     "true": 0.016475739908866468
+    },
+    "label": "false"
+   },
+   {
+    "row": 51,
+    "qid": "scope",
+    "type": "choice",
+    "probs": {
+     "in_project": 0.009043707099611267,
+     "outside_project": 0.03322144818692378,
+     "network": 0.9428887533009528,
+     "secrets": 0.01484609141251214
+    },
+    "label": "outside_project"
+   },
+   {
+    "row": 51,
+    "qid": "risk",
+    "type": "score",
+    "probs": {
+     "0": 0.29309294151294535,
+     "1": 0.4522331872014451,
+     "2": 0.1678152986770711,
+     "3": 0.062273132051730636,
+     "4": 0.02458544055680777
+    },
+    "label": "1"
+   },
+   {
+    "row": 52,
+    "qid": "destructive",
+    "type": "noul",
+    "probs": {
+     "false": 0.9989702195683441,
+     "true": 0.0010297804316558774
+    },
+    "label": "false"
+   },
+   {
+    "row": 52,
+    "qid": "scope",
+    "type": "choice",
+    "probs": {
+     "in_project": 0.9910822379024326,
+     "outside_project": 0.0037529589180859226,
+     "network": 0.004808464665787866,
+     "secrets": 0.000356338513693712
+    },
+    "label": "in_project"
+   },
+   {
+    "row": 53,
+    "qid": "destructive",
+    "type": "noul",
+    "probs": {
+     "false": 0.9878601165041855,
+     "true": 0.01213988349581452
+    },
+    "label": "false"
+   },
+   {
+    "row": 53,
+    "qid": "scope",
+    "type": "choice",
+    "probs": {
+     "in_project": 0.7818450398257921,
+     "outside_project": 0.20005107131288152,
+     "network": 0.01678083234192407,
+     "secrets": 0.0013230565194023245
+    },
+    "label": "in_project"
+   },
+   {
+    "row": 53,
+    "qid": "risk",
+    "type": "score",
+    "probs": {
+     "0": 0.1237849317471816,
+     "1": 0.3135382182311363,
+     "2": 0.3135382182311363,
+     "3": 0.2032043496790951,
+     "4": 0.04593428211145075
+    },
+    "label": "2"
+   },
+   {
+    "row": 54,
+    "qid": "destructive",
+    "type": "noul",
+    "probs": {
+     "false": 0.9979662479283385,
+     "true": 0.0020337520716614973
+    },
+    "label": "false"
+   },
+   {
+    "row": 54,
+    "qid": "scope",
+    "type": "choice",
+    "probs": {
+     "in_project": 0.5834413043122081,
+     "outside_project": 0.35541152176245044,
+     "network": 0.058937842599079665,
+     "secrets": 0.0022093313262618276
+    },
+    "label": "in_project"
+   },
+   {
+    "row": 55,
+    "qid": "destructive",
+    "type": "noul",
+    "probs": {
+     "false": 0.9984119676509405,
+     "true": 0.0015880323490594212
+    },
+    "label": "false"
+   },
+   {
+    "row": 55,
+    "qid": "risk",
+    "type": "score",
+    "probs": {
+     "0": 0.1454884576530661,
+     "1": 0.5023333491108692,
+     "2": 0.28761968364851165,
+     "3": 0.05074456023022466,
+     "4": 0.013813949357328324
+    },
+    "label": "1"
+   },
+   {
+    "row": 56,
+    "qid": "destructive",
+    "type": "noul",
+    "probs": {
+     "false": 0.9998290850145602,
+     "true": 0.00017091498543971202
+    },
+    "label": "false"
+   },
+   {
+    "row": 57,
+    "qid": "scope",
+    "type": "choice",
+    "probs": {
+     "in_project": 0.2614898984534478,
+     "outside_project": 0.05555846924997581,
+     "network": 0.662334920209525,
+     "secrets": 0.020616712087051407
+    },
+    "label": "network"
+   },
+   {
+    "row": 58,
+    "qid": "destructive",
+    "type": "noul",
+    "probs": {
+     "false": 0.9979662479283385,
+     "true": 0.0020337520716614973
+    },
+    "label": "false"
+   },
+   {
+    "row": 58,
+    "qid": "scope",
+    "type": "choice",
+    "probs": {
+     "in_project": 0.8579516444556909,
+     "outside_project": 0.015290819037620546,
+     "network": 0.1256924636237257,
+     "secrets": 0.001065072882962875
+    },
+    "label": "in_project"
+   },
+   {
+    "row": 59,
+    "qid": "scope",
+    "type": "choice",
+    "probs": {
+     "in_project": 0.0033070087130129865,
+     "outside_project": 0.9885246841663439,
+     "network": 0.007873175261075739,
+     "secrets": 0.00029513185956739867
+    },
+    "label": "outside_project"
+   },
+   {
+    "row": 60,
+    "qid": "scope",
+    "type": "choice",
+    "probs": {
+     "in_project": 0.9307045983174231,
+     "outside_project": 0.02125261734633969,
+     "network": 0.04755748087132486,
+     "secrets": 0.0004853034649123495
+    },
+    "label": "in_project"
+   },
+   {
+    "row": 61,
+    "qid": "destructive",
+    "type": "noul",
+    "probs": {
+     "false": 0.9776747986657045,
+     "true": 0.022325201334295445
+    },
+    "label": "false"
+   },
+   {
+    "row": 62,
+    "qid": "destructive",
+    "type": "noul",
+    "probs": {
+     "false": 0.9973957522349036,
+     "true": 0.002604247765096432
+    },
+    "label": "false"
+   },
+   {
+    "row": 63,
+    "qid": "destructive",
+    "type": "noul",
+    "probs": {
+     "false": 0.9920983693339239,
+     "true": 0.007901630666076073
+    },
+    "label": "false"
+   },
+   {
+    "row": 64,
+    "qid": "destructive",
+    "type": "noul",
+    "probs": {
+     "false": 0.9982028486276481,
+     "true": 0.001797151372351959
+    },
+    "label": "false"
+   },
+   {
+    "row": 64,
+    "qid": "scope",
+    "type": "choice",
+    "probs": {
+     "in_project": 0.6763477312447809,
+     "outside_project": 0.32156756458502905,
+     "network": 0.0012955198738053351,
+     "secrets": 0.0007891842963847401
+    },
+    "label": "in_project"
+   },
+   {
+    "row": 65,
+    "qid": "destructive",
+    "type": "noul",
+    "probs": {
+     "false": 0.9995931894554427,
+     "true": 0.00040681054455721737
+    },
+    "label": "false"
+   },
+   {
+    "row": 65,
+    "qid": "risk",
+    "type": "score",
+    "probs": {
+     "0": 0.0380287594778085,
+     "1": 0.12341499338060657,
+     "2": 0.2761686279673202,
+     "3": 0.4533562091972703,
+     "4": 0.1090314099769944
+    },
+    "label": "1"
+   },
+   {
+    "row": 66,
+    "qid": "destructive",
+    "type": "noul",
+    "probs": {
+     "false": 0.9813911859985933,
+     "true": 0.01860881400140665
+    },
+    "label": "false"
+   },
+   {
+    "row": 66,
+    "qid": "scope",
+    "type": "choice",
+    "probs": {
+     "in_project": 0.6194266076529679,
+     "outside_project": 0.3773324784981093,
+     "network": 0.0017207302141091342,
+     "secrets": 0.0015201836348137467
+    },
+    "label": "in_project"
+   },
+   {
+    "row": 67,
+    "qid": "destructive",
+    "type": "noul",
+    "probs": {
+     "false": 0.9925695556238957,
+     "true": 0.007430444376104301
+    },
+    "label": "false"
+   },
+   {
+    "row": 67,
+    "qid": "scope",
+    "type": "choice",
+    "probs": {
+     "in_project": 0.5870170833127336,
+     "outside_project": 0.4047639535358348,
+     "network": 0.0018458228614046035,
+     "secrets": 0.006373140290027047
+    },
+    "label": "in_project"
+   },
+   {
+    "row": 67,
+    "qid": "risk",
+    "type": "score",
+    "probs": {
+     "0": 0.1020870355246124,
+     "1": 0.5786283771797097,
+     "2": 0.29269117889182134,
+     "3": 0.02169031858731452,
+     "4": 0.004903089816542086
+    },
+    "label": "1"
+   },
+   {
+    "row": 68,
+    "qid": "destructive",
+    "type": "noul",
+    "probs": {
+     "false": 0.9966657560512914,
+     "true": 0.003334243948708583
+    },
+    "label": "false"
+   },
+   {
+    "row": 68,
+    "qid": "scope",
+    "type": "choice",
+    "probs": {
+     "in_project": 0.9491168835847056,
+     "outside_project": 0.048498362876217456,
+     "network": 0.002189365073315211,
+     "secrets": 0.000195388465761718
+    },
+    "label": "in_project"
+   },
+   {
+    "row": 69,
+    "qid": "destructive",
+    "type": "noul",
+    "probs": {
+     "false": 0.9878601165041855,
+     "true": 0.01213988349581452
+    },
+    "label": "false"
+   },
+   {
+    "row": 70,
+    "qid": "risk",
+    "type": "score",
+    "probs": {
+     "0": 0.034620063404232626,
+     "1": 0.3221233614152003,
+     "2": 0.5287956314707631,
+     "3": 0.10560269838259201,
+     "4": 0.008858245327211932
+    },
+    "label": "4"
+   },
+   {
+    "row": 71,
+    "qid": "destructive",
+    "type": "noul",
+    "probs": {
+     "false": 0.9983106368108158,
+     "true": 0.0016893631891842131
+    },
+    "label": "false"
+   },
+   {
+    "row": 72,
+    "qid": "destructive",
+    "type": "noul",
+    "probs": {
+     "false": 0.9987601255732429,
+     "true": 0.0012398744267570897
+    },
+    "label": "false"
+   },
+   {
+    "row": 72,
+    "qid": "scope",
+    "type": "choice",
+    "probs": {
+     "in_project": 0.06068240710345906,
+     "outside_project": 0.16352858273747553,
+     "network": 0.769659012142587,
+     "secrets": 0.006129998016478418
+    },
+    "label": "outside_project"
+   },
+   {
+    "row": 73,
+    "qid": "scope",
+    "type": "choice",
+    "probs": {
+     "in_project": 0.4500023335043342,
+     "outside_project": 0.5419250618818698,
+     "network": 0.001812953349433953,
+     "secrets": 0.006259651264361995
+    },
+    "label": "in_project"
+   },
+   {
+    "row": 74,
+    "qid": "destructive",
+    "type": "noul",
+    "probs": {
+     "false": 0.9990901277157789,
+     "true": 0.0009098722842210736
+    },
+    "label": "false"
+   },
+   {
+    "row": 74,
+    "qid": "scope",
+    "type": "choice",
+    "probs": {
+     "in_project": 0.006668453496054346,
+     "outside_project": 0.017970328342291234,
+     "network": 0.8907825873413151,
+     "secrets": 0.0845786308203393
+    },
+    "label": "network"
+   },
+   {
+    "row": 75,
+    "qid": "destructive",
+    "type": "noul",
+    "probs": {
+     "false": 0.9945382211875736,
+     "true": 0.005461778812426425
+    },
+    "label": "false"
+   },
+   {
+    "row": 75,
+    "qid": "risk",
+    "type": "score",
+    "probs": {
+     "0": 0.14544231972929358,
+     "1": 0.25401803472611256,
+     "2": 0.2875284807752299,
+     "3": 0.2244129147468073,
+     "4": 0.08859825002255663
+    },
+    "label": "1"
+   },
+   {
+    "row": 76,
+    "qid": "destructive",
+    "type": "noul",
+    "probs": {
+     "false": 0.9973957522349036,
+     "true": 0.002604247765096432
+    },
+    "label": "false"
+   },
+   {
+    "row": 76,
+    "qid": "risk",
+    "type": "score",
+    "probs": {
+     "0": 0.34710401144959124,
+     "1": 0.47315169256252526,
+     "2": 0.14579581912340053,
+     "3": 0.027366806189152916,
+     "4": 0.006581670675330035
+    },
+    "label": "1"
+   },
+   {
+    "row": 77,
+    "qid": "destructive",
+    "type": "noul",
+    "probs": {
+     "false": 0.9732364452378319,
+     "true": 0.02676355476216806
+    },
+    "label": "false"
+   },
+   {
+    "row": 77,
+    "qid": "scope",
+    "type": "choice",
+    "probs": {
+     "in_project": 0.43063025771898533,
+     "outside_project": 0.33610262114306566,
+     "network": 0.052387355569882776,
+     "secrets": 0.1808797655680662
+    },
+    "label": "in_project"
+   },
+   {
+    "row": 78,
+    "qid": "destructive",
+    "type": "noul",
+    "probs": {
+     "false": 0.9925695630191156,
+     "true": 0.007430436980884405
+    },
+    "label": "false"
+   },
+   {
+    "row": 79,
+    "qid": "destructive",
+    "type": "noul",
+    "probs": {
+     "false": 0.9992443459820015,
+     "true": 0.0007556540179985281
+    },
+    "label": "false"
+   },
+   {
+    "row": 80,
+    "qid": "destructive",
+    "type": "noul",
+    "probs": {
+     "false": 0.9835242600911336,
+     "true": 0.016475739908866468
+    },
+    "label": "false"
+   },
+   {
+    "row": 80,
+    "qid": "scope",
+    "type": "choice",
+    "probs": {
+     "in_project": 0.6785221378358663,
+     "outside_project": 0.06854274548192232,
+     "network": 0.25178690566467865,
+     "secrets": 0.0011482110175326432
+    },
+    "label": "in_project"
+   },
+   {
+    "row": 81,
+    "qid": "destructive",
+    "type": "noul",
+    "probs": {
+     "false": 0.9997363077555655,
+     "true": 0.00026369224443447477
+    },
+    "label": "false"
+   },
+   {
+    "row": 81,
+    "qid": "scope",
+    "type": "choice",
+    "probs": {
+     "in_project": 0.0007542180514471263,
+     "outside_project": 0.9973463174177598,
+     "network": 0.00010385684804948264,
+     "secrets": 0.0017956076827436154
+    },
+    "label": "outside_project"
+   },
+   {
+    "row": 81,
+    "qid": "risk",
+    "type": "score",
+    "probs": {
+     "0": 0.07781676492902506,
+     "1": 0.4145660554828515,
+     "2": 0.4410642549792027,
+     "3": 0.05708630968206784,
+     "4": 0.009466614926852843
+    },
+    "label": "1"
+   },
+   {
+    "row": 82,
+    "qid": "destructive",
+    "type": "noul",
+    "probs": {
+     "false": 0.7414066195487976,
+     "true": 0.2585933804512024
+    },
+    "label": "false"
+   },
+   {
+    "row": 82,
+    "qid": "scope",
+    "type": "choice",
+    "probs": {
+     "in_project": 0.0009519345166550836,
+     "outside_project": 0.0029037165442029043,
+     "network": 0.9824778117935,
+     "secrets": 0.013666537145641967
+    },
+    "label": "network"
+   },
+   {
+    "row": 82,
+    "qid": "risk",
+    "type": "score",
+    "probs": {
+     "0": 0.001745548225425554,
+     "1": 0.0015421107167368608,
+     "2": 0.006822004962997441,
+     "3": 0.23317287927309963,
+     "4": 0.7567174568217405
+    },
+    "label": "4"
+   },
+   {
+    "row": 83,
+    "qid": "destructive",
+    "type": "noul",
+    "probs": {
+     "false": 0.9997810263403419,
+     "true": 0.00021897365965809032
+    },
+    "label": "false"
+   },
+   {
+    "row": 83,
+    "qid": "scope",
+    "type": "choice",
+    "probs": {
+     "in_project": 0.4223362347857604,
+     "outside_project": 0.0013279985373812343,
+     "network": 0.0006313923860013881,
+     "secrets": 0.575704374290857
+    },
+    "label": "in_project"
+   },
+   {
+    "row": 84,
+    "qid": "destructive",
+    "type": "noul",
+    "probs": {
+     "false": 0.0917493172604642,
+     "true": 0.9082506827395358
+    },
+    "label": "true"
+   },
+   {
+    "row": 84,
+    "qid": "scope",
+    "type": "choice",
+    "probs": {
+     "in_project": 0.9818721800534675,
+     "outside_project": 0.017499423344102084,
+     "network": 0.0003995992750004347,
+     "secrets": 0.00022879732742997532
+    },
+    "label": "in_project"
+   },
+   {
+    "row": 85,
+    "qid": "destructive",
+    "type": "noul",
+    "probs": {
+     "false": 0.9998892230977015,
+     "true": 0.00011077690229852393
+    },
+    "label": "false"
+   },
+   {
+    "row": 86,
+    "qid": "destructive",
+    "type": "noul",
+    "probs": {
+     "false": 0.9998821432988273,
+     "true": 0.00011785670117269023
+    },
+    "label": "false"
+   },
+   {
+    "row": 86,
+    "qid": "risk",
+    "type": "score",
+    "probs": {
+     "0": 0.3387473355227718,
+     "1": 0.6294444486530522,
+     "2": 0.026707936613321194,
+     "3": 0.0034567698049311636,
+     "4": 0.0016435094059237144
+    },
+    "label": "1"
+   },
+   {
+    "row": 87,
+    "qid": "destructive",
+    "type": "noul",
+    "probs": {
+     "false": 0.9948646680999346,
+     "true": 0.005135331900065418
+    },
+    "label": "false"
+   },
+   {
+    "row": 88,
+    "qid": "destructive",
+    "type": "noul",
+    "probs": {
+     "false": 0.9994101222433468,
+     "true": 0.0005898777566532048
+    },
+    "label": "false"
+   },
+   {
+    "row": 88,
+    "qid": "scope",
+    "type": "choice",
+    "probs": {
+     "in_project": 0.9981973230338713,
+     "outside_project": 0.001094754260749918,
+     "network": 0.0006668850187977591,
+     "secrets": 4.103768658102769e-05
+    },
+    "label": "in_project"
+   },
+   {
+    "row": 89,
+    "qid": "destructive",
+    "type": "noul",
+    "probs": {
+     "false": 0.9999080116356998,
+     "true": 9.198836430021108e-05
+    },
+    "label": "false"
+   },
+   {
+    "row": 89,
+    "qid": "scope",
+    "type": "choice",
+    "probs": {
+     "in_project": 0.9806510995023136,
+     "outside_project": 0.017477626317710052,
+     "network": 0.0003114945198819441,
+     "secrets": 0.001559779660094475
+    },
+    "label": "in_project"
+   },
+   {
+    "row": 89,
+    "qid": "risk",
+    "type": "score",
+    "probs": {
+     "0": 0.38036613363301114,
+     "1": 0.5868929884869406,
+     "2": 0.02818760587129251,
+     "3": 0.0034290996038456156,
+     "4": 0.0011241724049101684
+    },
+    "label": "1"
+   },
+   {
+    "row": 90,
+    "qid": "destructive",
+    "type": "noul",
+    "probs": {
+     "false": 0.9180675627773474,
+     "true": 0.08193243722265259
+    },
+    "label": "false"
+   },
+   {
+    "row": 90,
+    "qid": "scope",
+    "type": "choice",
+    "probs": {
+     "in_project": 0.0007265439397925759,
+     "outside_project": 0.0025085650214126134,
+     "network": 0.9607504062302016,
+     "secrets": 0.03601448480859328
+    },
+    "label": "network"
+   },
+   {
+    "row": 91,
+    "qid": "destructive",
+    "type": "noul",
+    "probs": {
+     "false": 0.9998665974281559,
+     "true": 0.0001334025718441247
+    },
+    "label": "false"
+   },
+   {
+    "row": 91,
+    "qid": "scope",
+    "type": "choice",
+    "probs": {
+     "in_project": 0.9324799013941752,
+     "outside_project": 0.061049128726530275,
+     "network": 0.001022678898127066,
+     "secrets": 0.005448290981167401
+    },
+    "label": "in_project"
+   },
+   {
+    "row": 91,
+    "qid": "risk",
+    "type": "score",
+    "probs": {
+     "0": 0.2598181360871109,
+     "1": 0.7001649125009661,
+     "2": 0.03577728188648521,
+     "3": 0.0031929234899745244,
+     "4": 0.0010467460354633023
+    },
+    "label": "0"
+   },
+   {
+    "row": 92,
+    "qid": "destructive",
+    "type": "noul",
+    "probs": {
+     "false": 0.980225286935835,
+     "true": 0.01977471306416496
+    },
+    "label": "false"
+   },
+   {
+    "row": 92,
+    "qid": "scope",
+    "type": "choice",
+    "probs": {
+     "in_project": 0.9881217068033228,
+     "outside_project": 0.010727861449211671,
+     "network": 0.00013183544248102593,
+     "secrets": 0.0010185963049845126
+    },
+    "label": "in_project"
+   },
+   {
+    "row": 92,
+    "qid": "risk",
+    "type": "score",
+    "probs": {
+     "0": 0.12472706676136659,
+     "1": 0.7069511384964089,
+     "2": 0.15980608839392416,
+     "3": 0.006780720182395701,
+     "4": 0.0017349861659046147
+    },
+    "label": "1"
+   },
+   {
+    "row": 93,
+    "qid": "destructive",
+    "type": "noul",
+    "probs": {
+     "false": 0.9966657560512914,
+     "true": 0.003334243948708583
+    },
+    "label": "false"
+   },
+   {
+    "row": 94,
+    "qid": "destructive",
+    "type": "noul",
+    "probs": {
+     "false": 0.9999403802876148,
+     "true": 5.9619712385229474e-05
+    },
+    "label": "false"
+   },
+   {
+    "row": 94,
+    "qid": "scope",
+    "type": "choice",
+    "probs": {
+     "in_project": 0.2104216047597183,
+     "outside_project": 0.34542643138756635,
+     "network": 0.0015752305999276162,
+     "secrets": 0.44257673325278774
+    },
+    "label": "in_project"
+   },
+   {
+    "row": 95,
+    "qid": "destructive",
+    "type": "noul",
+    "probs": {
+     "false": 0.9813911859985933,
+     "true": 0.01860881400140665
+    },
+    "label": "false"
+   },
+   {
+    "row": 96,
+    "qid": "scope",
+    "type": "choice",
+    "probs": {
+     "in_project": 0.0009806092342096262,
+     "outside_project": 0.15774917561062465,
+     "network": 0.0008663226940537422,
+     "secrets": 0.8404038924611119
+    },
+    "label": "secrets"
+   },
+   {
+    "row": 97,
+    "qid": "destructive",
+    "type": "noul",
+    "probs": {
+     "false": 0.9976985697517677,
+     "true": 0.002301430248232233
+    },
+    "label": "false"
+   },
+   {
+    "row": 97,
+    "qid": "scope",
+    "type": "choice",
+    "probs": {
+     "in_project": 0.00013318677631419344,
+     "outside_project": 0.0014923818417333786,
+     "network": 0.9982492461795831,
+     "secrets": 0.00012518520236933628
+    },
+    "label": "network"
+   },
+   {
+    "row": 98,
+    "qid": "destructive",
+    "type": "noul",
+    "probs": {
+     "false": 0.9999236137425586,
+     "true": 7.638625744148153e-05
+    },
+    "label": "false"
+   },
+   {
+    "row": 98,
+    "qid": "scope",
+    "type": "choice",
+    "probs": {
+     "in_project": 0.9970172174672743,
+     "outside_project": 0.001795015078770741,
+     "network": 0.0009079835803333868,
+     "secrets": 0.0002797838736215319
+    },
+    "label": "in_project"
+   },
+   {
+    "row": 98,
+    "qid": "risk",
+    "type": "score",
+    "probs": {
+     "0": 0.8773251163463064,
+     "1": 0.12080887612282672,
+     "2": 0.001484628896640187,
+     "3": 0.00023140484550275878,
+     "4": 0.0001499737887239451
+    },
+    "label": "0"
+   },
+   {
+    "row": 99,
+    "qid": "destructive",
+    "type": "noul",
+    "probs": {
+     "false": 0.9885811274126804,
+     "true": 0.011418872587319565
+    },
+    "label": "false"
+   },
+   {
+    "row": 99,
+    "qid": "scope",
+    "type": "choice",
+    "probs": {
+     "in_project": 0.16827911451978822,
+     "outside_project": 0.015977878421132984,
+     "network": 0.11603292293907931,
+     "secrets": 0.6997100841199995
+    },
+    "label": "in_project"
+   },
+   {
+    "row": 100,
+    "qid": "destructive",
+    "type": "noul",
+    "probs": {
+     "false": 0.9999365697592658,
+     "true": 6.343024073417109e-05
+    },
+    "label": "false"
+   },
+   {
+    "row": 100,
+    "qid": "scope",
+    "type": "choice",
+    "probs": {
+     "in_project": 0.00010397277560409057,
+     "outside_project": 0.0013187277796060232,
+     "network": 0.9984596103026522,
+     "secrets": 0.00011768914213771469
+    },
+    "label": "network"
+   },
+   {
+    "row": 101,
+    "qid": "scope",
+    "type": "choice",
+    "probs": {
+     "in_project": 0.015447979309876547,
+     "outside_project": 0.0030850289353336513,
+     "network": 0.9811142371667926,
+     "secrets": 0.00035275458799722615
+    },
+    "label": "in_project"
+   },
+   {
+    "row": 102,
+    "qid": "destructive",
+    "type": "noul",
+    "probs": {
+     "false": 0.9878601165041855,
+     "true": 0.01213988349581452
+    },
+    "label": "false"
+   },
+   {
+    "row": 102,
+    "qid": "scope",
+    "type": "choice",
+    "probs": {
+     "in_project": 0.08303806092920087,
+     "outside_project": 0.21032936635990404,
+     "network": 0.6825826687822193,
+     "secrets": 0.02404990392867583
+    },
+    "label": "in_project"
+   },
+   {
+    "row": 102,
+    "qid": "risk",
+    "type": "score",
+    "probs": {
+     "0": 0.22248279551082562,
+     "1": 0.413407137690325,
+     "2": 0.25183307561651447,
+     "3": 0.07759923314453886,
+     "4": 0.03467775803779606
+    },
+    "label": "1"
+   },
+   {
+    "row": 103,
+    "qid": "destructive",
+    "type": "noul",
+    "probs": {
+     "false": 0.9982028486276481,
+     "true": 0.001797151372351959
+    },
+    "label": "false"
+   },
+   {
+    "row": 103,
+    "qid": "risk",
+    "type": "score",
+    "probs": {
+     "0": 0.4523727517864705,
+     "1": 0.42519476277185314,
+     "2": 0.09611513300041671,
+     "3": 0.01919459518501534,
+     "4": 0.0071227572562443005
+    },
+    "label": "1"
+   },
+   {
+    "row": 104,
+    "qid": "destructive",
+    "type": "noul",
+    "probs": {
+     "false": 0.9715744004769504,
+     "true": 0.028425599523049575
+    },
+    "label": "false"
+   },
+   {
+    "row": 104,
+    "qid": "scope",
+    "type": "choice",
+    "probs": {
+     "in_project": 0.38448503541856066,
+     "outside_project": 0.19448643886579864,
+     "network": 0.40906053705315937,
+     "secrets": 0.011967988662481329
+    },
+    "label": "in_project"
+   },
+   {
+    "row": 105,
+    "qid": "category",
+    "type": "choice",
+    "probs": {
+     "action_required": 0.5087353856474414,
+     "fyi": 0.0011030173047442361,
+     "scheduling": 0.47817164210702223,
+     "newsletter": 0.00037298298203549475,
+     "suspicious": 0.01161697195875668
+    },
+    "label": "action_required"
+   },
+   {
+    "row": 106,
+    "qid": "category",
+    "type": "choice",
+    "probs": {
+     "action_required": 0.9721001376174476,
+     "fyi": 0.023616751630504737,
+     "scheduling": 0.0005068891327026388,
+     "newsletter": 9.514632973818766e-05,
+     "suspicious": 0.0036810752896068214
+    },
+    "label": "action_required"
+   },
+   {
+    "row": 106,
+    "qid": "reply_needed",
+    "type": "noul",
+    "probs": {
+     "false": 0.01010148518841647,
+     "true": 0.9898985148115835
+    },
+    "label": "true"
+   },
+   {
+    "row": 107,
+    "qid": "category",
+    "type": "choice",
+    "probs": {
+     "action_required": 0.014483827194185972,
+     "fyi": 0.006472571765445402,
+     "scheduling": 0.000258137850821415,
+     "newsletter": 0.00010842692448010446,
+     "suspicious": 0.9786770362650671
+    },
+    "label": "suspicious"
+   },
+   {
+    "row": 108,
+    "qid": "urgency",
+    "type": "score",
+    "probs": {
+     "0": 0.3160086440062032,
+     "1": 0.664656435577205,
+     "2": 0.018277746653564245,
+     "3": 0.0010571737630275739
+    },
+    "label": "1"
+   },
+   {
+    "row": 109,
+    "qid": "category",
+    "type": "choice",
+    "probs": {
+     "action_required": 0.9662907076545826,
+     "fyi": 0.03007804214488301,
+     "scheduling": 0.0003069334081144406,
+     "newsletter": 9.169269262949991e-05,
+     "suspicious": 0.003232624099790421
+    },
+    "label": "action_required"
+   },
+   {
+    "row": 109,
+    "qid": "reply_needed",
+    "type": "noul",
+    "probs": {
+     "false": 0.21397565624081571,
+     "true": 0.7860243437591843
+    },
+    "label": "true"
+   },
+   {
+    "row": 110,
+    "qid": "reply_needed",
+    "type": "noul",
+    "probs": {
+     "false": 0.9920983693339239,
+     "true": 0.007901630666076073
+    },
+    "label": "false"
+   },
+   {
+    "row": 111,
+    "qid": "category",
+    "type": "choice",
+    "probs": {
+     "action_required": 0.9869881549154353,
+     "fyi": 0.007860929450967296,
+     "scheduling": 0.00027696976590137196,
+     "newsletter": 8.534471723136618e-05,
+     "suspicious": 0.004788601150464586
+    },
+    "label": "action_required"
+   },
+   {
+    "row": 112,
+    "qid": "category",
+    "type": "choice",
+    "probs": {
+     "action_required": 0.04058784689406468,
+     "fyi": 0.0026572722005773846,
+     "scheduling": 0.9565619396264099,
+     "newsletter": 8.019064401199784e-05,
+     "suspicious": 0.00011275063493602112
+    },
+    "label": "scheduling"
+   },
+   {
+    "row": 112,
+    "qid": "reply_needed",
+    "type": "noul",
+    "probs": {
+     "false": 0.0051353365327651,
+     "true": 0.9948646634672349
+    },
+    "label": "true"
+   },
+   {
+    "row": 113,
+    "qid": "category",
+    "type": "choice",
+    "probs": {
+     "action_required": 0.9617493054130953,
+     "fyi": 0.029936682104388646,
+     "scheduling": 0.0008758651467261358,
+     "newsletter": 0.00023843257627735866,
+     "suspicious": 0.007199714759512517
+    },
+    "label": "action_required"
+   },
+   {
+    "row": 113,
+    "qid": "urgency",
+    "type": "score",
+    "probs": {
+     "0": 0.001388083461390868,
+     "1": 0.04459373705887249,
+     "2": 0.9284852853400515,
+     "3": 0.02553289413968511
+    },
+    "label": "3"
+   },
+   {
+    "row": 114,
+    "qid": "reply_needed",
+    "type": "noul",
+    "probs": {
+     "false": 0.9892597824983906,
+     "true": 0.010740217501609391
+    },
+    "label": "false"
+   },
+   {
+    "row": 115,
+    "qid": "reply_needed",
+    "type": "noul",
+    "probs": {
+     "false": 0.9082506827395358,
+     "true": 0.09174931726046415
+    },
+    "label": "false"
+   },
+   {
+    "row": 116,
+    "qid": "reply_needed",
+    "type": "noul",
+    "probs": {
+     "false": 0.5768343978176831,
+     "true": 0.42316560218231686
+    },
+    "label": "true"
+   },
+   {
+    "row": 117,
+    "qid": "reply_needed",
+    "type": "noul",
+    "probs": {
+     "false": 0.030187660996919496,
+     "true": 0.9698123390030805
+    },
+    "label": "true"
+   },
+   {
+    "row": 118,
+    "qid": "category",
+    "type": "choice",
+    "probs": {
+     "action_required": 0.979723645027532,
+     "fyi": 0.011316561975200395,
+     "scheduling": 0.0027216141723519173,
+     "newsletter": 0.0001479592428993975,
+     "suspicious": 0.00609021958201634
+    },
+    "label": "action_required"
+   },
+   {
+    "row": 118,
+    "qid": "urgency",
+    "type": "score",
+    "probs": {
+     "0": 0.38875152925271056,
+     "1": 0.4135997534200407,
+     "2": 0.17372636010035344,
+     "3": 0.023922357226895306
+    },
+    "label": "1"
+   },
+   {
+    "row": 119,
+    "qid": "reply_needed",
+    "type": "noul",
+    "probs": {
+     "false": 0.9082506827395358,
+     "true": 0.09174931726046415
+    },
+    "label": "false"
+   },
+   {
+    "row": 120,
+    "qid": "category",
+    "type": "choice",
+    "probs": {
+     "action_required": 0.18379783513400014,
+     "fyi": 0.002556678564374855,
+     "scheduling": 0.8130867492638553,
+     "newsletter": 0.0002663960239104517,
+     "suspicious": 0.000292341013859241
+    },
+    "label": "scheduling"
+   },
+   {
+    "row": 120,
+    "qid": "urgency",
+    "type": "score",
+    "probs": {
+     "0": 0.19305009411784932,
+     "1": 0.7091557712100365,
+     "2": 0.09178500276311058,
+     "3": 0.0060091319090036285
+    },
+    "label": "1"
+   },
+   {
+    "row": 121,
+    "qid": "urgency",
+    "type": "score",
+    "probs": {
+     "0": 0.1549672446516136,
+     "1": 0.6855456724642001,
+     "2": 0.1456571176793408,
+     "3": 0.01382996520484548
+    },
+    "label": "2"
+   },
+   {
+    "row": 122,
+    "qid": "category",
+    "type": "choice",
+    "probs": {
+     "action_required": 0.02666549517262797,
+     "fyi": 0.9696705823779298,
+     "scheduling": 0.001280704344080414,
+     "newsletter": 0.00014644100884734959,
+     "suspicious": 0.0022367770965144285
+    },
+    "label": "fyi"
+   },
+   {
+    "row": 122,
+    "qid": "reply_needed",
+    "type": "noul",
+    "probs": {
+     "false": 0.9862805770272858,
+     "true": 0.013719422972714168
+    },
+    "label": "false"
+   },
+   {
+    "row": 123,
+    "qid": "category",
+    "type": "choice",
+    "probs": {
+     "action_required": 0.9350460478122652,
+     "fyi": 0.05083327534487087,
+     "scheduling": 0.0008515464421024457,
+     "newsletter": 0.000262393450115779,
+     "suspicious": 0.013006736950645742
+    },
+    "label": "action_required"
+   },
+   {
+    "row": 123,
+    "qid": "reply_needed",
+    "type": "noul",
+    "probs": {
+     "false": 0.048614252901981625,
+     "true": 0.9513857470980184
+    },
+    "label": "true"
+   },
+   {
+    "row": 124,
+    "qid": "category",
+    "type": "choice",
+    "probs": {
+     "action_required": 0.29100794623191467,
+     "fyi": 0.011605921609442254,
+     "scheduling": 0.001598151224041552,
+     "newsletter": 0.002969612937516429,
+     "suspicious": 0.6928183679970851
+    },
+    "label": "suspicious"
+   },
+   {
+    "row": 125,
+    "qid": "category",
+    "type": "choice",
+    "probs": {
+     "action_required": 0.9068828994268596,
+     "fyi": 0.09161114265423803,
+     "scheduling": 0.000994605897173287,
+     "newsletter": 0.00020487656501602918,
+     "suspicious": 0.00030647545671303177
+    },
+    "label": "action_required"
+   },
+   {
+    "row": 126,
+    "qid": "category",
+    "type": "choice",
+    "probs": {
+     "action_required": 0.8586787470484454,
+     "fyi": 0.09818476311647,
+     "scheduling": 0.0015459526130463066,
+     "newsletter": 0.0003494619113870114,
+     "suspicious": 0.041241075310651285
+    },
+    "label": "action_required"
+   },
+   {
+    "row": 126,
+    "qid": "urgency",
+    "type": "score",
+    "probs": {
+     "0": 0.13965792563768312,
+     "1": 0.6178201860425941,
+     "2": 0.22926154092154816,
+     "3": 0.013260347398174534
+    },
+    "label": "1"
+   },
+   {
+    "row": 127,
+    "qid": "category",
+    "type": "choice",
+    "probs": {
+     "action_required": 0.017455601932134242,
+     "fyi": 0.9794143959988386,
+     "scheduling": 0.00035214339464700823,
+     "newsletter": 0.0006543363511218402,
+     "suspicious": 0.0021235223232582406
+    },
+    "label": "fyi"
+   },
+   {
+    "row": 128,
+    "qid": "category",
+    "type": "choice",
+    "probs": {
+     "action_required": 0.8777596056689607,
+     "fyi": 0.1208687093200342,
+     "scheduling": 0.000799375671581106,
+     "newsletter": 0.00019224851637991794,
+     "suspicious": 0.0003800608230440706
+    },
+    "label": "action_required"
+   },
+   {
+    "row": 128,
+    "qid": "reply_needed",
+    "type": "noul",
+    "probs": {
+     "false": 0.003772435723958467,
+     "true": 0.9962275642760415
+    },
+    "label": "true"
+   },
+   {
+    "row": 128,
+    "qid": "urgency",
+    "type": "score",
+    "probs": {
+     "0": 0.04739902968750137,
+     "1": 0.8718743425779317,
+     "2": 0.07780986369831795,
+     "3": 0.0029167640362489505
+    },
+    "label": "1"
+   },
+   {
+    "row": 129,
+    "qid": "category",
+    "type": "choice",
+    "probs": {
+     "action_required": 0.04793176550307951,
+     "fyi": 0.0014023520486018922,
+     "scheduling": 0.0005536487154013245,
+     "newsletter": 0.8287045523937224,
+     "suspicious": 0.12140768133919483
+    },
+    "label": "newsletter"
+   },
+   {
+    "row": 129,
+    "qid": "reply_needed",
+    "type": "noul",
+    "probs": {
+     "false": 0.9962275573174729,
+     "true": 0.0037724426825271203
+    },
+    "label": "false"
+   },
+   {
+    "row": 130,
+    "qid": "reply_needed",
+    "type": "noul",
+    "probs": {
+     "false": 0.006177859182721401,
+     "true": 0.9938221408172786
+    },
+    "label": "true"
+   },
+   {
+    "row": 131,
+    "qid": "category",
+    "type": "choice",
+    "probs": {
+     "action_required": 0.9270036450414658,
+     "fyi": 0.007855089576115607,
+     "scheduling": 0.06456982504499294,
+     "newsletter": 0.00014440212174757057,
+     "suspicious": 0.0004270382156780851
+    },
+    "label": "action_required"
+   },
+   {
+    "row": 131,
+    "qid": "reply_needed",
+    "type": "noul",
+    "probs": {
+     "false": 0.01010148518841647,
+     "true": 0.9898985148115835
+    },
+    "label": "true"
+   },
+   {
+    "row": 131,
+    "qid": "urgency",
+    "type": "score",
+    "probs": {
+     "0": 0.017276761248858588,
+     "1": 0.24803567267788235,
+     "2": 0.7111369040265259,
+     "3": 0.023550662046733218
+    },
+    "label": "2"
+   },
+   {
+    "row": 132,
+    "qid": "category",
+    "type": "choice",
+    "probs": {
+     "action_required": 0.00038224333310334676,
+     "fyi": 0.9992604789595638,
+     "scheduling": 0.00012531189635716863,
+     "newsletter": 3.861330672956632e-05,
+     "suspicious": 0.00019335250424614266
+    },
+    "label": "fyi"
+   },
+   {
+    "row": 132,
+    "qid": "reply_needed",
+    "type": "noul",
+    "probs": {
+     "false": 0.9980881978667794,
+     "true": 0.001911802133220633
+    },
+    "label": "false"
+   },
+   {
+    "row": 132,
+    "qid": "urgency",
+    "type": "score",
+    "probs": {
+     "0": 0.993546794218205,
+     "1": 0.004258618734196884,
+     "2": 0.0020247458224420412,
+     "3": 0.00016984122515607963
+    },
+    "label": "0"
+   },
+   {
+    "row": 133,
+    "qid": "category",
+    "type": "choice",
+    "probs": {
+     "action_required": 0.011360052451477306,
+     "fyi": 0.005076611181477954,
+     "scheduling": 0.9834888125928817,
+     "newsletter": 2.875680233806326e-05,
+     "suspicious": 4.576697182499926e-05
+    },
+    "label": "scheduling"
+   },
+   {
+    "row": 133,
+    "qid": "urgency",
+    "type": "score",
+    "probs": {
+     "0": 0.229789804619802,
+     "1": 0.7457377079672747,
+     "2": 0.021818238435823843,
+     "3": 0.0026542489770994956
+    },
+    "label": "1"
+   },
+   {
+    "row": 134,
+    "qid": "category",
+    "type": "choice",
+    "probs": {
+     "action_required": 0.4197886970712104,
+     "fyi": 0.5722311853064364,
+     "scheduling": 0.003142564156585589,
+     "newsletter": 0.0014941228163032488,
+     "suspicious": 0.0033434306494643943
+    },
+    "label": "action_required"
+   },
+   {
+    "row": 135,
+    "qid": "category",
+    "type": "choice",
+    "probs": {
+     "action_required": 0.001687585162748323,
+     "fyi": 0.9972599355147223,
+     "scheduling": 0.0009082046602549624,
+     "newsletter": 5.253000258329338e-05,
+     "suspicious": 9.174465969120641e-05
+    },
+    "label": "fyi"
+   },
+   {
+    "row": 135,
+    "qid": "reply_needed",
+    "type": "noul",
+    "probs": {
+     "false": 0.981391204278429,
+     "true": 0.018608795721571092
+    },
+    "label": "false"
+   },
+   {
+    "row": 136,
+    "qid": "urgency",
+    "type": "score",
+    "probs": {
+     "0": 0.2216841528933312,
+     "1": 0.3021870187926214,
+     "2": 0.4119234887080605,
+     "3": 0.06420533960598693
+    },
+    "label": "1"
+   },
+   {
+    "row": 137,
+    "qid": "category",
+    "type": "choice",
+    "probs": {
+     "action_required": 0.007611463658964264,
+     "fyi": 0.013293580757970557,
+     "scheduling": 0.0006792802323980968,
+     "newsletter": 0.08016398169381996,
+     "suspicious": 0.8982516936568471
+    },
+    "label": "newsletter"
+   },
+   {
+    "row": 137,
+    "qid": "reply_needed",
+    "type": "noul",
+    "probs": {
+     "false": 0.9420308435091556,
+     "true": 0.05796915649084443
+    },
+    "label": "false"
+   },
+   {
+    "row": 138,
+    "qid": "reply_needed",
+    "type": "noul",
+    "probs": {
+     "false": 0.14997034371075968,
+     "true": 0.8500296562892403
+    },
+    "label": "true"
+   },
+   {
+    "row": 139,
+    "qid": "category",
+    "type": "choice",
+    "probs": {
+     "action_required": 0.9944642959999265,
+     "fyi": 0.0019048588946240718,
+     "scheduling": 0.0002790672179751851,
+     "newsletter": 2.49051980502227e-05,
+     "suspicious": 0.003326872689423998
+    },
+    "label": "action_required"
+   },
+   {
+    "row": 139,
+    "qid": "reply_needed",
+    "type": "noul",
+    "probs": {
+     "false": 0.02842559952304957,
+     "true": 0.9715744004769504
+    },
+    "label": "true"
+   },
+   {
+    "row": 140,
+    "qid": "category",
+    "type": "choice",
+    "probs": {
+     "action_required": 0.9928192957100276,
+     "fyi": 0.000750793819237979,
+     "scheduling": 0.004816883467188015,
+     "newsletter": 3.3893136541914415e-05,
+     "suspicious": 0.0015791338670045293
+    },
+    "label": "action_required"
+   },
+   {
+    "row": 140,
+    "qid": "reply_needed",
+    "type": "noul",
+    "probs": {
+     "false": 0.004539547960096368,
+     "true": 0.9954604520399036
+    },
+    "label": "true"
+   },
+   {
+    "row": 140,
+    "qid": "urgency",
+    "type": "score",
+    "probs": {
+     "0": 0.005784805777895364,
+     "1": 0.2695230801474589,
+     "2": 0.6826823252039801,
+     "3": 0.042009788870665594
+    },
+    "label": "2"
+   },
+   {
+    "row": 141,
+    "qid": "reply_needed",
+    "type": "noul",
+    "probs": {
+     "false": 0.42316539814575316,
+     "true": 0.5768346018542468
+    },
+    "label": "true"
+   },
+   {
+    "row": 142,
+    "qid": "category",
+    "type": "choice",
+    "probs": {
+     "action_required": 0.0916126298617128,
+     "fyi": 0.0005352744499123283,
+     "scheduling": 0.000729654568529662,
+     "newsletter": 0.00022483398854698266,
+     "suspicious": 0.9068976071312982
+    },
+    "label": "action_required"
+   },
+   {
+    "row": 143,
+    "qid": "category",
+    "type": "choice",
+    "probs": {
+     "action_required": 0.13433064194303718,
+     "fyi": 0.8618287830972926,
+     "scheduling": 0.00042239072056621485,
+     "newsletter": 0.00035074372739413905,
+     "suspicious": 0.0030674405117098536
+    },
+    "label": "fyi"
+   },
+   {
+    "row": 143,
+    "qid": "reply_needed",
+    "type": "noul",
+    "probs": {
+     "false": 0.9997941789346527,
+     "true": 0.00020582106534724275
+    },
+    "label": "false"
+   },
+   {
+    "row": 144,
+    "qid": "category",
+    "type": "choice",
+    "probs": {
+     "action_required": 0.9645387751392055,
+     "fyi": 0.03398428562686968,
+     "scheduling": 0.00036896137434980724,
+     "newsletter": 0.00011369087120784566,
+     "suspicious": 0.000994286988367123
+    },
+    "label": "action_required"
+   },
+   {
+    "row": 144,
+    "qid": "reply_needed",
+    "type": "noul",
+    "probs": {
+     "false": 0.5,
+     "true": 0.5
+    },
+    "label": "false"
+   },
+   {
+    "row": 145,
+    "qid": "urgency",
+    "type": "score",
+    "probs": {
+     "0": 0.4311378762839855,
+     "1": 0.3364988097887963,
+     "2": 0.21808534203236832,
+     "3": 0.014277971894849882
+    },
+    "label": "1"
+   },
+   {
+    "row": 146,
+    "qid": "category",
+    "type": "choice",
+    "probs": {
+     "action_required": 0.02647827044719746,
+     "fyi": 0.9628623184261138,
+     "scheduling": 0.0004169094084364036,
+     "newsletter": 0.0004169094084364036,
+     "suspicious": 0.00982559230981596
+    },
+    "label": "fyi"
+   },
+   {
+    "row": 146,
+    "qid": "reply_needed",
+    "type": "noul",
+    "probs": {
+     "false": 0.9132848109816071,
+     "true": 0.0867151890183929
+    },
+    "label": "false"
+   },
+   {
+    "row": 147,
+    "qid": "reply_needed",
+    "type": "noul",
+    "probs": {
+     "false": 0.012139883495814519,
+     "true": 0.9878601165041855
+    },
+    "label": "true"
+   },
+   {
+    "row": 148,
+    "qid": "urgency",
+    "type": "score",
+    "probs": {
+     "0": 0.5771831659765063,
+     "1": 0.39798285107027825,
+     "2": 0.023019083868133224,
+     "3": 0.001814899085082182
+    },
+    "label": "1"
+   },
+   {
+    "row": 149,
+    "qid": "reply_needed",
+    "type": "noul",
+    "probs": {
+     "false": 0.7042080163955688,
+     "true": 0.29579198360443115
+    },
+    "label": "true"
+   },
+   {
+    "row": 150,
+    "qid": "page_oncall",
+    "type": "noul",
+    "probs": {
+     "false": 0.9990901277157789,
+     "true": 0.0009098722842210736
+    },
+    "label": "false"
+   },
+   {
+    "row": 151,
+    "qid": "cause",
+    "type": "choice",
+    "probs": {
+     "deploy": 0.013076396519286347,
+     "dependency": 0.9400537583078205,
+     "capacity": 0.0178249694021633,
+     "client": 0.016754082486979068,
+     "noise": 0.012290793283750828
+    },
+    "label": "dependency"
+   },
+   {
+    "row": 152,
+    "qid": "cause",
+    "type": "choice",
+    "probs": {
+     "deploy": 0.07220006335726589,
+     "dependency": 0.03226496473727826,
+     "capacity": 0.0025438769713745355,
+     "client": 0.860726130196803,
+     "noise": 0.03226496473727826
+    },
+    "label": "client"
+   },
+   {
+    "row": 152,
+    "qid": "page_oncall",
+    "type": "noul",
+    "probs": {
+     "false": 0.8789652716959309,
+     "true": 0.12103472830406917
+    },
+    "label": "false"
+   },
+   {
+    "row": 152,
+    "qid": "severity",
+    "type": "score",
+    "probs": {
+     "0": 0.007355686978807461,
+     "1": 0.09925831661120138,
+     "2": 0.8159158650641699,
+     "3": 0.07747013134582123
+    },
+    "label": "2"
+   },
+   {
+    "row": 153,
+    "qid": "cause",
+    "type": "choice",
+    "probs": {
+     "deploy": 0.0010922393508616013,
+     "dependency": 0.0012363292811882766,
+     "capacity": 0.0009649426809974155,
+     "client": 0.0008012659297645294,
+     "noise": 0.9959052227571882
+    },
+    "label": "noise"
+   },
+   {
+    "row": 153,
+    "qid": "page_oncall",
+    "type": "noul",
+    "probs": {
+     "false": 0.9959873974504255,
+     "true": 0.004012602549574445
+    },
+    "label": "false"
+   },
+   {
+    "row": 153,
+    "qid": "severity",
+    "type": "score",
+    "probs": {
+     "0": 0.8600821153623982,
+     "1": 0.13405854467838493,
+     "2": 0.00472337594131576,
+     "3": 0.0011359640179011354
+    },
+    "label": "0"
+   },
+   {
+    "row": 154,
+    "qid": "cause",
+    "type": "choice",
+    "probs": {
+     "deploy": 0.16835069468225508,
+     "dependency": 0.2940280106586068,
+     "capacity": 0.42642005801476474,
+     "client": 0.04048806011131339,
+     "noise": 0.07071317653306004
+    },
+    "label": "capacity"
+   },
+   {
+    "row": 155,
+    "qid": "cause",
+    "type": "choice",
+    "probs": {
+     "deploy": 0.9983365563582096,
+     "dependency": 0.00035894676026505275,
+     "capacity": 4.1043410256111025e-05,
+     "client": 0.0005538434834813355,
+     "noise": 0.0007096099877878455
+    },
+    "label": "deploy"
+   },
+   {
+    "row": 155,
+    "qid": "severity",
+    "type": "score",
+    "probs": {
+     "0": 0.06675185308228333,
+     "1": 0.9007557095312316,
+     "2": 0.029830252953124543,
+     "3": 0.0026621844333604323
+    },
+    "label": "2"
+   },
+   {
+    "row": 156,
+    "qid": "page_oncall",
+    "type": "noul",
+    "probs": {
+     "false": 0.9180675627773474,
+     "true": 0.08193243722265259
+    },
+    "label": "false"
+   },
+   {
+    "row": 157,
+    "qid": "page_oncall",
+    "type": "noul",
+    "probs": {
+     "false": 0.9029552869278543,
+     "true": 0.09704471307214563
+    },
+    "label": "true"
+   },
+   {
+    "row": 158,
+    "qid": "page_oncall",
+    "type": "noul",
+    "probs": {
+     "false": 0.9132847394038306,
+     "true": 0.0867152605961694
+    },
+    "label": "false"
+   },
+   {
+    "row": 159,
+    "qid": "page_oncall",
+    "type": "noul",
+    "probs": {
+     "false": 0.6501239344440718,
+     "true": 0.3498760655559282
+    },
+    "label": "false"
+   },
+   {
+    "row": 160,
+    "qid": "cause",
+    "type": "choice",
+    "probs": {
+     "deploy": 0.0008975711144264907,
+     "dependency": 0.9855827303523237,
+     "capacity": 0.008885293457347515,
+     "client": 0.00013990183950570643,
+     "noise": 0.004494503236396649
+    },
+    "label": "dependency"
+   },
+   {
+    "row": 160,
+    "qid": "severity",
+    "type": "score",
+    "probs": {
+     "0": 0.03647582808156367,
+     "1": 0.02221977048461463,
+     "2": 0.3841633021755469,
+     "3": 0.5571410992582748
+    },
+    "label": "3"
+   },
+   {
+    "row": 161,
+    "qid": "cause",
+    "type": "choice",
+    "probs": {
+     "deploy": 0.017195608422823323,
+     "dependency": 0.5192393647246917,
+     "capacity": 0.43116468080719667,
+     "client": 0.002367858536064987,
+     "noise": 0.030032487509223316
+    },
+    "label": "capacity"
+   },
+   {
+    "row": 161,
+    "qid": "page_oncall",
+    "type": "noul",
+    "probs": {
+     "false": 0.32223910093307495,
+     "true": 0.677760899066925
+    },
+    "label": "true"
+   },
+   {
+    "row": 162,
+    "qid": "page_oncall",
+    "type": "noul",
+    "probs": {
+     "false": 0.9938221408172786,
+     "true": 0.006177859182721425
+    },
+    "label": "false"
+   },
+   {
+    "row": 162,
+    "qid": "severity",
+    "type": "score",
+    "probs": {
+     "0": 0.025558967411078125,
+     "1": 0.8735941780607019,
+     "2": 0.09388905801164982,
+     "3": 0.006957796516570065
+    },
+    "label": "1"
+   },
+   {
+    "row": 163,
+    "qid": "cause",
+    "type": "choice",
+    "probs": {
+     "deploy": 0.0646604327079712,
+     "dependency": 0.015550711925182929,
+     "capacity": 0.007866120325813642,
+     "client": 0.03938882139294588,
+     "noise": 0.8725339136480863
+    },
+    "label": "noise"
+   },
+   {
+    "row": 163,
+    "qid": "page_oncall",
+    "type": "noul",
+    "probs": {
+     "false": 0.9954604520399036,
+     "true": 0.004539547960096339
+    },
+    "label": "false"
+   },
+   {
+    "row": 164,
+    "qid": "cause",
+    "type": "choice",
+    "probs": {
+     "deploy": 0.10525989061899198,
+     "dependency": 0.09299222622418994,
+     "capacity": 0.026932899611183617,
+     "client": 0.36343503946082767,
+     "noise": 0.41137994408480677
+    },
+    "label": "client"
+   },
+   {
+    "row": 164,
+    "qid": "page_oncall",
+    "type": "noul",
+    "probs": {
+     "false": 0.9813911859985933,
+     "true": 0.01860881400140665
+    },
+    "label": "false"
+   },
+   {
+    "row": 164,
+    "qid": "severity",
+    "type": "score",
+    "probs": {
+     "0": 0.07210422837423598,
+     "1": 0.46260054520962995,
+     "2": 0.33936368407715306,
+     "3": 0.12593154233898096
+    },
+    "label": "1"
+   },
+   {
+    "row": 165,
+    "qid": "page_oncall",
+    "type": "noul",
+    "probs": {
+     "false": 0.9984119676509405,
+     "true": 0.0015880323490594212
+    },
+    "label": "false"
+   },
+   {
+    "row": 166,
+    "qid": "page_oncall",
+    "type": "noul",
+    "probs": {
+     "false": 0.9420308435091556,
+     "true": 0.05796915649084443
+    },
+    "label": "false"
+   },
+   {
+    "row": 167,
+    "qid": "cause",
+    "type": "choice",
+    "probs": {
+     "deploy": 0.04381831411814296,
+     "dependency": 0.23344071470321023,
+     "capacity": 0.6692920401985799,
+     "client": 0.00682983555082048,
+     "noise": 0.04661909542924645
+    },
+    "label": "capacity"
+   },
+   {
+    "row": 168,
+    "qid": "page_oncall",
+    "type": "noul",
+    "probs": {
+     "false": 0.9732364452378319,
+     "true": 0.02676355476216806
+    },
+    "label": "false"
+   },
+   {
+    "row": 169,
+    "qid": "cause",
+    "type": "choice",
+    "probs": {
+     "deploy": 0.0013486310723167293,
+     "dependency": 0.0011914527996401305,
+     "capacity": 0.0017279285118909202,
+     "client": 0.03597716459447383,
+     "noise": 0.9597548230216784
+    },
+    "label": "noise"
+   },
+   {
+    "row": 169,
+    "qid": "page_oncall",
+    "type": "noul",
+    "probs": {
+     "false": 0.9994101216616136,
+     "true": 0.000589878338386442
+    },
+    "label": "false"
+   },
+   {
+    "row": 169,
+    "qid": "severity",
+    "type": "score",
+    "probs": {
+     "0": 0.9588693340170086,
+     "1": 0.03175479532881027,
+     "2": 0.00526589339254748,
+     "3": 0.004109977261633708
+    },
+    "label": "0"
+   },
+   {
+    "row": 170,
+    "qid": "cause",
+    "type": "choice",
+    "probs": {
+     "deploy": 0.9779246136833406,
+     "dependency": 0.019728336394780766,
+     "capacity": 0.0008905968498422376,
+     "client": 0.00024244290395722995,
+     "noise": 0.0012140101680791534
+    },
+    "label": "deploy"
+   },
+   {
+    "row": 170,
+    "qid": "severity",
+    "type": "score",
+    "probs": {
+     "0": 0.015044006925333479,
+     "1": 0.11623406724146376,
+     "2": 0.7933904742899572,
+     "3": 0.07533145154324555
+    },
+    "label": "2"
+   },
+   {
+    "row": 171,
+    "qid": "page_oncall",
+    "type": "noul",
+    "probs": {
+     "false": 0.9938221463706928,
+     "true": 0.006177853629307184
+    },
+    "label": "false"
+   },
+   {
+    "row": 171,
+    "qid": "severity",
+    "type": "score",
+    "probs": {
+     "0": 0.3889861644955551,
+     "1": 0.3889861644955551,
+     "2": 0.14434550487480305,
+     "3": 0.07768216613408675
+    },
+    "label": "1"
+   },
+   {
+    "row": 172,
+    "qid": "page_oncall",
+    "type": "noul",
+    "probs": {
+     "false": 0.3932409701717189,
+     "true": 0.6067590298282811
+    },
+    "label": "false"
+   },
+   {
+    "row": 172,
+    "qid": "severity",
+    "type": "score",
+    "probs": {
+     "0": 0.6671535993633926,
+     "1": 0.29813945404492115,
+     "2": 0.028307944641664418,
+     "3": 0.00639900195002184
+    },
+    "label": "1"
+   },
+   {
+    "row": 173,
+    "qid": "cause",
+    "type": "choice",
+    "probs": {
+     "deploy": 0.0007096157418569306,
+     "dependency": 0.00038189259319032834,
+     "capacity": 0.000459902497889431,
+     "client": 0.0001039608072457025,
+     "noise": 0.9983446283598176
+    },
+    "label": "noise"
+   },
+   {
+    "row": 173,
+    "qid": "page_oncall",
+    "type": "noul",
+    "probs": {
+     "false": 0.9999439619137764,
+     "true": 5.6038086223511466e-05
+    },
+    "label": "false"
+   },
+   {
+    "row": 173,
+    "qid": "severity",
+    "type": "score",
+    "probs": {
+     "0": 0.9938143675411156,
+     "1": 0.005806655730331153,
+     "2": 0.0002463817700176856,
+     "3": 0.00013259495853556433
+    },
+    "label": "0"
+   },
+   {
+    "row": 174,
+    "qid": "severity",
+    "type": "score",
+    "probs": {
+     "0": 0.12398137377056796,
+     "1": 0.5835271934199,
+     "2": 0.26076825512995333,
+     "3": 0.031723177679578704
+    },
+    "label": "1"
+   },
+   {
+    "row": 175,
+    "qid": "cause",
+    "type": "choice",
+    "probs": {
+     "deploy": 0.1627616550952602,
+     "dependency": 0.09319193470271066,
+     "capacity": 0.010015761274521473,
+     "client": 0.4122634445598388,
+     "noise": 0.3217672043676688
+    },
+    "label": "client"
+   },
+   {
+    "row": 175,
+    "qid": "page_oncall",
+    "type": "noul",
+    "probs": {
+     "false": 0.9484386408759704,
+     "true": 0.05156135912402958
+    },
+    "label": "false"
+   },
+   {
+    "row": 175,
+    "qid": "severity",
+    "type": "score",
+    "probs": {
+     "0": 0.07983182967022379,
+     "1": 0.6562276956396607,
+     "2": 0.24351386272322642,
+     "3": 0.02042661196688913
+    },
+    "label": "1"
+   },
+   {
+    "row": 176,
+    "qid": "cause",
+    "type": "choice",
+    "probs": {
+     "deploy": 0.1990533366587759,
+     "dependency": 0.3071333536610012,
+     "capacity": 0.02421538958434886,
+     "client": 0.41866604429482024,
+     "noise": 0.05093187580105385
+    },
+    "label": "client"
+   },
+   {
+    "row": 176,
+    "qid": "page_oncall",
+    "type": "noul",
+    "probs": {
+     "false": 0.9348813922251205,
+     "true": 0.06511860777487956
+    },
+    "label": "false"
+   },
+   {
+    "row": 177,
+    "qid": "cause",
+    "type": "choice",
+    "probs": {
+     "deploy": 0.003376923476331506,
+     "dependency": 0.011659628624769831,
+     "capacity": 0.02452352811006063,
+     "client": 0.011659628624769831,
+     "noise": 0.9487802911640681
+    },
+    "label": "noise"
+   },
+   {
+    "row": 177,
+    "qid": "page_oncall",
+    "type": "noul",
+    "probs": {
+     "false": 0.9990320267910386,
+     "true": 0.0009679732089613759
+    },
+    "label": "false"
+   },
+   {
+    "row": 178,
+    "qid": "page_oncall",
+    "type": "noul",
+    "probs": {
+     "false": 0.9996621703580565,
+     "true": 0.0003378296419434617
+    },
+    "label": "false"
+   },
+   {
+    "row": 179,
+    "qid": "page_oncall",
+    "type": "noul",
+    "probs": {
+     "false": 0.9892597824983906,
+     "true": 0.010740217501609391
+    },
+    "label": "false"
+   },
+   {
+    "row": 180,
+    "qid": "page_oncall",
+    "type": "noul",
+    "probs": {
+     "false": 0.6911410093307495,
+     "true": 0.3088589906692505
+    },
+    "label": "false"
+   },
+   {
+    "row": 180,
+    "qid": "severity",
+    "type": "score",
+    "probs": {
+     "0": 0.017468798425838226,
+     "1": 0.8138992238616888,
+     "2": 0.16253907775117235,
+     "3": 0.006092899961300657
+    },
+    "label": "1"
+   },
+   {
+    "row": 181,
+    "qid": "cause",
+    "type": "choice",
+    "probs": {
+     "deploy": 0.7697769744104662,
+     "dependency": 0.0010816774670642244,
+     "capacity": 0.0010166924575160548,
+     "client": 0.16355364972110953,
+     "noise": 0.06457100594384402
+    },
+    "label": "deploy"
+   },
+   {
+    "row": 181,
+    "qid": "page_oncall",
+    "type": "noul",
+    "probs": {
+     "false": 0.9957320149749443,
+     "true": 0.004267985025055623
+    },
+    "label": "false"
+   },
+   {
+    "row": 181,
+    "qid": "severity",
+    "type": "score",
+    "probs": {
+     "0": 0.17195630670094156,
+     "1": 0.809324709835784,
+     "2": 0.01632702593522306,
+     "3": 0.0023919575280513783
+    },
+    "label": "1"
+   },
+   {
+    "row": 182,
+    "qid": "page_oncall",
+    "type": "noul",
+    "probs": {
+     "false": 0.8419589274829786,
+     "true": 0.1580410725170214
+    },
+    "label": "false"
+   },
+   {
+    "row": 182,
+    "qid": "severity",
+    "type": "score",
+    "probs": {
+     "0": 0.04454723795369906,
+     "1": 0.680425830339184,
+     "2": 0.2524933247174322,
+     "3": 0.02253360698968478
+    },
+    "label": "1"
+   },
+   {
+    "row": 183,
+    "qid": "page_oncall",
+    "type": "noul",
+    "probs": {
+     "false": 0.9698123390030805,
+     "true": 0.030187660996919465
+    },
+    "label": "false"
+   },
+   {
+    "row": 183,
+    "qid": "severity",
+    "type": "score",
+    "probs": {
+     "0": 0.00442091792831744,
+     "1": 0.24805274501793334,
+     "2": 0.7111858695742335,
+     "3": 0.03634046747951573
+    },
+    "label": "1"
+   },
+   {
+    "row": 184,
+    "qid": "cause",
+    "type": "choice",
+    "probs": {
+     "deploy": 0.000489089881760665,
+     "dependency": 0.00033724051551032604,
+     "capacity": 0.0006666990749623036,
+     "client": 0.0005889976177113978,
+     "noise": 0.9979179729100554
+    },
+    "label": "noise"
+   },
+   {
+    "row": 184,
+    "qid": "page_oncall",
+    "type": "noul",
+    "probs": {
+     "false": 0.9998746110917125,
+     "true": 0.0001253889082874945
+    },
+    "label": "false"
+   },
+   {
+    "row": 185,
+    "qid": "cause",
+    "type": "choice",
+    "probs": {
+     "deploy": 0.20583742104912242,
+     "dependency": 0.6278725491586078,
+     "capacity": 0.1178556871949173,
+     "client": 0.004700297192634495,
+     "noise": 0.04373404540471802
+    },
+    "label": "dependency"
+   },
+   {
+    "row": 186,
+    "qid": "cause",
+    "type": "choice",
+    "probs": {
+     "deploy": 0.649289673232242,
+     "dependency": 0.00020624110506825043,
+     "capacity": 0.0008575573898382519,
+     "client": 0.00021942352390663883,
+     "noise": 0.34942710474894484
+    },
+    "label": "deploy"
+   },
+   {
+    "row": 186,
+    "qid": "severity",
+    "type": "score",
+    "probs": {
+     "0": 0.16490774695950955,
+     "1": 0.8257600935254396,
+     "2": 0.008426523434860696,
+     "3": 0.0009056360801902331
+    },
+    "label": "1"
+   },
+   {
+    "row": 187,
+    "qid": "page_oncall",
+    "type": "noul",
+    "probs": {
+     "false": 0.9484385887976534,
+     "true": 0.05156141120234654
+    },
+    "label": "true"
+   },
+   {
+    "row": 187,
+    "qid": "severity",
+    "type": "score",
+    "probs": {
+     "0": 0.008625680821733945,
+     "1": 0.42757142784739177,
+     "2": 0.514912619672137,
+     "3": 0.048890271658737355
+    },
+    "label": "2"
+   },
+   {
+    "row": 188,
+    "qid": "page_oncall",
+    "type": "noul",
+    "probs": {
+     "false": 0.9698123390030805,
+     "true": 0.030187660996919465
+    },
+    "label": "false"
+   },
+   {
+    "row": 189,
+    "qid": "cause",
+    "type": "choice",
+    "probs": {
+     "deploy": 0.31426992330102477,
+     "dependency": 0.004108945749895836,
+     "capacity": 0.5839621893934733,
+     "client": 0.0008205736925549579,
+     "noise": 0.09683836786305117
+    },
+    "label": "deploy"
+   },
+   {
+    "row": 189,
+    "qid": "severity",
+    "type": "score",
+    "probs": {
+     "0": 0.13514903788768365,
+     "1": 0.8149862055811951,
+     "2": 0.047138305614566514,
+     "3": 0.002726450916554808
+    },
+    "label": "2"
+   },
+   {
+    "row": 190,
+    "qid": "cause",
+    "type": "choice",
+    "probs": {
+     "deploy": 0.0003807003328863562,
+     "dependency": 0.9952278011354362,
+     "capacity": 0.003329429966204412,
+     "client": 3.6147029729738004e-05,
+     "noise": 0.0010259215357433158
+    },
+    "label": "dependency"
+   },
+   {
+    "row": 191,
+    "qid": "page_oncall",
+    "type": "noul",
+    "probs": {
+     "false": 0.9999439619137764,
+     "true": 5.6038086223511466e-05
+    },
+    "label": "false"
+   },
+   {
+    "row": 191,
+    "qid": "severity",
+    "type": "score",
+    "probs": {
+     "0": 0.9960360079956592,
+     "1": 0.003771713758416864,
+     "2": 0.00013289138058577543,
+     "3": 5.938686533823567e-05
+    },
+    "label": "0"
+   },
+   {
+    "row": 192,
+    "qid": "cause",
+    "type": "choice",
+    "probs": {
+     "deploy": 0.023000290831553666,
+     "dependency": 0.2577226185959076,
+     "capacity": 0.07941395118286787,
+     "client": 0.13036543252286903,
+     "noise": 0.5094977068668017
+    },
+    "label": "client"
+   },
+   {
+    "row": 192,
+    "qid": "page_oncall",
+    "type": "noul",
+    "probs": {
+     "false": 0.8651513328380684,
+     "true": 0.13484866716193158
+    },
+    "label": "false"
+   },
+   {
+    "row": 193,
+    "qid": "cause",
+    "type": "choice",
+    "probs": {
+     "deploy": 0.0010663739723248845,
+     "dependency": 0.9723201512282267,
+     "capacity": 0.0009420918177883067,
+     "client": 0.000539410491516816,
+     "noise": 0.025131972490143338
+    },
+    "label": "dependency"
+   },
+   {
+    "row": 193,
+    "qid": "severity",
+    "type": "score",
+    "probs": {
+     "0": 0.008363460880455293,
+     "1": 0.3041309030465242,
+     "2": 0.6805608076067781,
+     "3": 0.006944828466242475
+    },
+    "label": "2"
+   },
+   {
+    "row": 194,
+    "qid": "cause",
+    "type": "choice",
+    "probs": {
+     "deploy": 0.0016879131908436327,
+     "dependency": 0.0023008633721971514,
+     "capacity": 0.000754299277688422,
+     "client": 0.8812040629672323,
+     "noise": 0.11405286119203854
+    },
+    "label": "client"
+   },
+   {
+    "row": 194,
+    "qid": "page_oncall",
+    "type": "noul",
+    "probs": {
+     "false": 0.9945382211875736,
+     "true": 0.005461778812426425
+    },
+    "label": "false"
+   },
+   {
+    "row": 194,
+    "qid": "severity",
+    "type": "score",
+    "probs": {
+     "0": 0.7542403866141999,
+     "1": 0.18139354715688577,
+     "2": 0.043624803017593895,
+     "3": 0.0207412632113205
+    },
+    "label": "0"
+   },
+   {
+    "row": 195,
+    "qid": "page_oncall",
+    "type": "noul",
+    "probs": {
+     "false": 0.2585932237329118,
+     "true": 0.7414067762670882
+    },
+    "label": "true"
+   },
+   {
+    "row": 196,
+    "qid": "page_oncall",
+    "type": "noul",
+    "probs": {
+     "false": 0.8789652716959309,
+     "true": 0.12103472830406917
+    },
+    "label": "false"
+   },
+   {
+    "row": 197,
+    "qid": "cause",
+    "type": "choice",
+    "probs": {
+     "deploy": 0.04041690283279521,
+     "dependency": 0.0006363772407490328,
+     "capacity": 0.0011824875481789272,
+     "client": 0.005231100957988739,
+     "noise": 0.9525331314202881
+    },
+    "label": "noise"
+   },
+   {
+    "row": 197,
+    "qid": "page_oncall",
+    "type": "noul",
+    "probs": {
+     "false": 0.9954604520399036,
+     "true": 0.004539547960096339
+    },
+    "label": "false"
+   },
+   {
+    "row": 197,
+    "qid": "severity",
+    "type": "score",
+    "probs": {
+     "0": 0.10229845924993856,
+     "1": 0.8946544439178792,
+     "2": 0.0024852968298759727,
+     "3": 0.0005618000023063041
+    },
+    "label": "0"
+   },
+   {
+    "row": 198,
+    "qid": "intent",
+    "type": "choice",
+    "probs": {
+     "coding": 0.6570104439580976,
+     "writing": 0.13120773892192736,
+     "factual_qa": 0.003608152452028466,
+     "analysis": 0.12332504762246597,
+     "chitchat": 0.00972334591520696,
+     "other": 0.07512527113027367
+    },
+    "label": "coding"
+   },
+   {
+    "row": 198,
+    "qid": "needs_big_model",
+    "type": "noul",
+    "probs": {
+     "false": 0.9082506096009029,
+     "true": 0.09174939039909712
+    },
+    "label": "false"
+   },
+   {
+    "row": 199,
+    "qid": "intent",
+    "type": "choice",
+    "probs": {
+     "coding": 0.9967933588930441,
+     "writing": 4.359932191000605e-05,
+     "factual_qa": 0.00033686014179830343,
+     "analysis": 0.00027972105545135713,
+     "chitchat": 0.0022993400434661087,
+     "other": 0.0002471205443301438
+    },
+    "label": "coding"
+   },
+   {
+    "row": 200,
+    "qid": "needs_big_model",
+    "type": "noul",
+    "probs": {
+     "false": 0.9029552869278543,
+     "true": 0.09704471307214563
+    },
+    "label": "false"
+   },
+   {
+    "row": 201,
+    "qid": "intent",
+    "type": "choice",
+    "probs": {
+     "coding": 0.002176090507443484,
+     "writing": 0.7362848175705298,
+     "factual_qa": 0.0031559188770270688,
+     "analysis": 0.0075134673364909985,
+     "chitchat": 0.0376229827380228,
+     "other": 0.21324672297048586
+    },
+    "label": "other"
+   },
+   {
+    "row": 201,
+    "qid": "needs_big_model",
+    "type": "noul",
+    "probs": {
+     "false": 0.9915975577377647,
+     "true": 0.008402442262235278
+    },
+    "label": "false"
+   },
+   {
+    "row": 202,
+    "qid": "intent",
+    "type": "choice",
+    "probs": {
+     "coding": 0.000774871483842694,
+     "writing": 0.004672689618483585,
+     "factual_qa": 0.706528106164383,
+     "analysis": 0.00528911856010051,
+     "chitchat": 0.1501153789465447,
+     "other": 0.13261983522664555
+    },
+    "label": "factual_qa"
+   },
+   {
+    "row": 202,
+    "qid": "needs_big_model",
+    "type": "noul",
+    "probs": {
+     "false": 0.9420308435091556,
+     "true": 0.05796915649084443
+    },
+    "label": "false"
+   },
+   {
+    "row": 203,
+    "qid": "intent",
+    "type": "choice",
+    "probs": {
+     "coding": 0.8852254220433282,
+     "writing": 0.0007122179911267589,
+     "factual_qa": 0.003794319513887042,
+     "analysis": 0.0375609724093283,
+     "chitchat": 0.05120090034312805,
+     "other": 0.021506167699201623
+    },
+    "label": "coding"
+   },
+   {
+    "row": 203,
+    "qid": "needs_big_model",
+    "type": "noul",
+    "probs": {
+     "false": 0.3640972186355954,
+     "true": 0.6359027813644046
+    },
+    "label": "false"
+   },
+   {
+    "row": 204,
+    "qid": "intent",
+    "type": "choice",
+    "probs": {
+     "coding": 0.9973909116968627,
+     "writing": 0.00011756305153659366,
+     "factual_qa": 0.001238173554734172,
+     "analysis": 0.0004888310144039523,
+     "chitchat": 0.0003586064216427945,
+     "other": 0.00040591426081982803
+    },
+    "label": "coding"
+   },
+   {
+    "row": 204,
+    "qid": "needs_big_model",
+    "type": "noul",
+    "probs": {
+     "false": 0.8789652716959309,
+     "true": 0.12103472830406917
+    },
+    "label": "false"
+   },
+   {
+    "row": 204,
+    "qid": "complexity",
+    "type": "score",
+    "probs": {
+     "0": 0.06903534687979052,
+     "1": 0.7735534056497615,
+     "2": 0.15448201386062024,
+     "3": 0.002929233609827791
+    },
+    "label": "2"
+   },
+   {
+    "row": 205,
+    "qid": "intent",
+    "type": "choice",
+    "probs": {
+     "coding": 0.9836059700665282,
+     "writing": 0.00024385118472698895,
+     "factual_qa": 0.0009530267457079725,
+     "analysis": 0.00020248851574609827,
+     "chitchat": 0.012087615074034701,
+     "other": 0.0029070484132561023
+    },
+    "label": "coding"
+   },
+   {
+    "row": 205,
+    "qid": "needs_big_model",
+    "type": "noul",
+    "probs": {
+     "false": 0.9844987456678159,
+     "true": 0.015501254332184092
+    },
+    "label": "false"
+   },
+   {
+    "row": 206,
+    "qid": "intent",
+    "type": "choice",
+    "probs": {
+     "coding": 0.0010540120191354608,
+     "writing": 0.6626686079949792,
+     "factual_qa": 0.0020837023155887455,
+     "analysis": 0.29613519707775404,
+     "chitchat": 0.008143582654342963,
+     "other": 0.029914897938199646
+    },
+    "label": "analysis"
+   },
+   {
+    "row": 207,
+    "qid": "needs_big_model",
+    "type": "noul",
+    "probs": {
+     "false": 0.9513857052143129,
+     "true": 0.04861429478568717
+    },
+    "label": "false"
+   },
+   {
+    "row": 208,
+    "qid": "needs_big_model",
+    "type": "noul",
+    "probs": {
+     "false": 0.7644455915027024,
+     "true": 0.23555440849729764
+    },
+    "label": "false"
+   },
+   {
+    "row": 209,
+    "qid": "needs_big_model",
+    "type": "noul",
+    "probs": {
+     "false": 0.9082506096009029,
+     "true": 0.09174939039909712
+    },
+    "label": "false"
+   },
+   {
+    "row": 210,
+    "qid": "needs_big_model",
+    "type": "noul",
+    "probs": {
+     "false": 0.9226089578478194,
+     "true": 0.07739104215218064
+    },
+    "label": "false"
+   },
+   {
+    "row": 211,
+    "qid": "intent",
+    "type": "choice",
+    "probs": {
+     "coding": 0.0006257578408149753,
+     "writing": 0.010818886415715908,
+     "factual_qa": 0.5362877768972659,
+     "analysis": 0.013861657853123741,
+     "chitchat": 0.044985289972602545,
+     "other": 0.39342063102047686
+    },
+    "label": "factual_qa"
+   },
+   {
+    "row": 212,
+    "qid": "intent",
+    "type": "choice",
+    "probs": {
+     "coding": 0.9325457835201689,
+     "writing": 0.000903553040224219,
+     "factual_qa": 0.01662027201268069,
+     "analysis": 0.0020219019095536776,
+     "chitchat": 0.04478875845372456,
+     "other": 0.003119731063647945
+    },
+    "label": "coding"
+   },
+   {
+    "row": 212,
+    "qid": "needs_big_model",
+    "type": "noul",
+    "probs": {
+     "false": 0.39324118515130324,
+     "true": 0.6067588148486968
+    },
+    "label": "false"
+   },
+   {
+    "row": 212,
+    "qid": "complexity",
+    "type": "score",
+    "probs": {
+     "0": 0.036932285462331564,
+     "1": 0.20933183793725255,
+     "2": 0.6001700691859789,
+     "3": 0.153565807414437
+    },
+    "label": "2"
+   },
+   {
+    "row": 213,
+    "qid": "needs_big_model",
+    "type": "noul",
+    "probs": {
+     "false": 0.9029552869278543,
+     "true": 0.09704471307214563
+    },
+    "label": "false"
+   },
+   {
+    "row": 214,
+    "qid": "needs_big_model",
+    "type": "noul",
+    "probs": {
+     "false": 0.9420308435091556,
+     "true": 0.05796915649084443
+    },
+    "label": "false"
+   },
+   {
+    "row": 215,
+    "qid": "needs_big_model",
+    "type": "noul",
+    "probs": {
+     "false": 0.7169485901876864,
+     "true": 0.28305140981231364
+    },
+    "label": "false"
+   },
+   {
+    "row": 216,
+    "qid": "intent",
+    "type": "choice",
+    "probs": {
+     "coding": 0.9956458982073068,
+     "writing": 0.00012485873066504368,
+     "factual_qa": 0.00017020021194887936,
+     "analysis": 7.605954712211657e-05,
+     "chitchat": 0.003130722425757063,
+     "other": 0.0008522608772001116
+    },
+    "label": "coding"
+   },
+   {
+    "row": 216,
+    "qid": "needs_big_model",
+    "type": "noul",
+    "probs": {
+     "false": 0.8789652716959309,
+     "true": 0.12103472830406917
+    },
+    "label": "false"
+   },
+   {
+    "row": 216,
+    "qid": "complexity",
+    "type": "score",
+    "probs": {
+     "0": 0.03531330457946901,
+     "1": 0.6105407487797379,
+     "2": 0.34957540100361295,
+     "3": 0.004570545637180182
+    },
+    "label": "2"
+   },
+   {
+    "row": 217,
+    "qid": "needs_big_model",
+    "type": "noul",
+    "probs": {
+     "false": 0.9484386408759704,
+     "true": 0.05156135912402958
+    },
+    "label": "false"
+   },
+   {
+    "row": 218,
+    "qid": "intent",
+    "type": "choice",
+    "probs": {
+     "coding": 0.9697000957517388,
+     "writing": 0.0008831059073699994,
+     "factual_qa": 0.0034513818018731567,
+     "analysis": 0.00037093533231976434,
+     "chitchat": 0.02214309940482516,
+     "other": 0.0034513818018731567
+    },
+    "label": "coding"
+   },
+   {
+    "row": 218,
+    "qid": "needs_big_model",
+    "type": "noul",
+    "probs": {
+     "false": 0.8651513328380684,
+     "true": 0.13484866716193158
+    },
+    "label": "false"
+   },
+   {
+    "row": 218,
+    "qid": "complexity",
+    "type": "score",
+    "probs": {
+     "0": 0.2680464868153088,
+     "1": 0.563777780221982,
+     "2": 0.14425409712298917,
+     "3": 0.023921635839720026
+    },
+    "label": "1"
+   },
+   {
+    "row": 219,
+    "qid": "needs_big_model",
+    "type": "noul",
+    "probs": {
+     "false": 0.9679446544926684,
+     "true": 0.0320553455073316
+    },
+    "label": "false"
+   },
+   {
+    "row": 220,
+    "qid": "intent",
+    "type": "choice",
+    "probs": {
+     "coding": 0.9986864617861416,
+     "writing": 9.774852214904229e-05,
+     "factual_qa": 0.0004894665175738974,
+     "analysis": 9.187598779954138e-05,
+     "chitchat": 0.00031722359316797274,
+     "other": 0.00031722359316797274
+    },
+    "label": "coding"
+   },
+   {
+    "row": 220,
+    "qid": "needs_big_model",
+    "type": "noul",
+    "probs": {
+     "false": 0.8156277647240302,
+     "true": 0.1843722352759698
+    },
+    "label": "false"
+   },
+   {
+    "row": 220,
+    "qid": "complexity",
+    "type": "score",
+    "probs": {
+     "0": 0.03603322120999414,
+     "1": 0.6628076548333668,
+     "2": 0.29619730029222563,
+     "3": 0.0049618236644135205
+    },
+    "label": "2"
+   },
+   {
+    "row": 221,
+    "qid": "needs_big_model",
+    "type": "noul",
+    "probs": {
+     "false": 0.5918817520141602,
+     "true": 0.40811824798583984
+    },
+    "label": "false"
+   },
+   {
+    "row": 222,
+    "qid": "complexity",
+    "type": "score",
+    "probs": {
+     "0": 0.016395481883574568,
+     "1": 0.1726771505193149,
+     "2": 0.7179979340023561,
+     "3": 0.0929294335947544
+    },
+    "label": "2"
+   },
+   {
+    "row": 223,
+    "qid": "needs_big_model",
+    "type": "noul",
+    "probs": {
+     "false": 0.9385532526995259,
+     "true": 0.06144674730047403
+    },
+    "label": "false"
+   },
+   {
+    "row": 223,
+    "qid": "complexity",
+    "type": "score",
+    "probs": {
+     "0": 0.18227924746050028,
+     "1": 0.5226082899162228,
+     "2": 0.24847257600114822,
+     "3": 0.04663988662212876
+    },
+    "label": "1"
+   },
+   {
+    "row": 224,
+    "qid": "intent",
+    "type": "choice",
+    "probs": {
+     "coding": 0.05605176040884797,
+     "writing": 0.8047131288966505,
+     "factual_qa": 0.004153799883594931,
+     "analysis": 0.03864918357638282,
+     "chitchat": 0.04374784273693779,
+     "other": 0.05268428449758604
+    },
+    "label": "coding"
+   },
+   {
+    "row": 225,
+    "qid": "needs_big_model",
+    "type": "noul",
+    "probs": {
+     "false": 0.8500297918924627,
+     "true": 0.14997020810753728
+    },
+    "label": "false"
+   },
+   {
+    "row": 225,
+    "qid": "complexity",
+    "type": "score",
+    "probs": {
+     "0": 0.10815999253988294,
+     "1": 0.5416010416447729,
+     "2": 0.3101028088441935,
+     "3": 0.04013615697115075
+    },
+    "label": "1"
+   },
+   {
+    "row": 226,
+    "qid": "intent",
+    "type": "choice",
+    "probs": {
+     "coding": 7.603378933645782e-05,
+     "writing": 0.0009064294076581152,
+     "factual_qa": 0.0013985921978015349,
+     "analysis": 0.0001503130541808108,
+     "chitchat": 0.9953106459956099,
+     "other": 0.00215798555541316
+    },
+    "label": "chitchat"
+   },
+   {
+    "row": 226,
+    "qid": "needs_big_model",
+    "type": "noul",
+    "probs": {
+     "false": 0.980225286935835,
+     "true": 0.01977471306416496
+    },
+    "label": "false"
+   },
+   {
+    "row": 226,
+    "qid": "complexity",
+    "type": "score",
+    "probs": {
+     "0": 0.3488322123669638,
+     "1": 0.6092427242430088,
+     "2": 0.03988690588865538,
+     "3": 0.002038157501371929
+    },
+    "label": "0"
+   },
+   {
+    "row": 227,
+    "qid": "intent",
+    "type": "choice",
+    "probs": {
+     "coding": 0.020370872664155375,
+     "writing": 0.012409207597925175,
+     "factual_qa": 0.0011074527698997924,
+     "analysis": 0.9491105934851336,
+     "chitchat": 0.0020578170186782226,
+     "other": 0.01494405646420779
+    },
+    "label": "analysis"
+   },
+   {
+    "row": 228,
+    "qid": "needs_big_model",
+    "type": "noul",
+    "probs": {
+     "false": 0.9082506827395358,
+     "true": 0.09174931726046415
+    },
+    "label": "false"
+   },
+   {
+    "row": 228,
+    "qid": "complexity",
+    "type": "score",
+    "probs": {
+     "0": 0.3997627467111482,
+     "1": 0.4253147789950477,
+     "2": 0.12318180982023547,
+     "3": 0.05174066447356858
+    },
+    "label": "1"
+   },
+   {
+    "row": 229,
+    "qid": "needs_big_model",
+    "type": "noul",
+    "probs": {
+     "false": 0.7754191756248474,
+     "true": 0.2245808243751526
+    },
+    "label": "false"
+   },
+   {
+    "row": 230,
+    "qid": "intent",
+    "type": "choice",
+    "probs": {
+     "coding": 0.9937180409239276,
+     "writing": 0.00015966504203886466,
+     "factual_qa": 0.0003572862234086999,
+     "analysis": 0.0001922802646140503,
+     "chitchat": 0.004821252605850075,
+     "other": 0.0007514749401607146
+    },
+    "label": "coding"
+   },
+   {
+    "row": 230,
+    "qid": "needs_big_model",
+    "type": "noul",
+    "probs": {
+     "false": 0.8156277647240302,
+     "true": 0.1843722352759698
+    },
+    "label": "false"
+   },
+   {
+    "row": 230,
+    "qid": "complexity",
+    "type": "score",
+    "probs": {
+     "0": 0.1132290457487941,
+     "1": 0.5669832551077667,
+     "2": 0.30513264251230526,
+     "3": 0.014655056631133943
+    },
+    "label": "2"
+   },
+   {
+    "row": 231,
+    "qid": "intent",
+    "type": "choice",
+    "probs": {
+     "coding": 0.00022837166319285296,
+     "writing": 0.9800454500492051,
+     "factual_qa": 0.0005784488238904901,
+     "analysis": 0.00022837166319285296,
+     "chitchat": 0.015431150986695539,
+     "other": 0.00348820681382322
+    },
+    "label": "writing"
+   },
+   {
+    "row": 231,
+    "qid": "needs_big_model",
+    "type": "noul",
+    "probs": {
+     "false": 0.9938221408172786,
+     "true": 0.006177859182721425
+    },
+    "label": "false"
+   },
+   {
+    "row": 231,
+    "qid": "complexity",
+    "type": "score",
+    "probs": {
+     "0": 0.35522296135628867,
+     "1": 0.6204037511038121,
+     "2": 0.023256321786890133,
+     "3": 0.0011169657530091194
+    },
+    "label": "0"
+   },
+   {
+    "row": 232,
+    "qid": "needs_big_model",
+    "type": "noul",
+    "probs": {
+     "false": 0.9484386408759704,
+     "true": 0.05156135912402958
+    },
+    "label": "false"
+   },
+   {
+    "row": 232,
+    "qid": "complexity",
+    "type": "score",
+    "probs": {
+     "0": 0.13536853178120448,
+     "1": 0.6371216450888624,
+     "2": 0.20886939168720695,
+     "3": 0.01864043144272626
+    },
+    "label": "1"
+   },
+   {
+    "row": 233,
+    "qid": "intent",
+    "type": "choice",
+    "probs": {
+     "coding": 0.10097199114196052,
+     "writing": 0.018953104375688114,
+     "factual_qa": 0.3486300214027974,
+     "analysis": 0.018953104375688114,
+     "chitchat": 0.2403894975563792,
+     "other": 0.27210228114748664
+    },
+    "label": "coding"
+   },
+   {
+    "row": 233,
+    "qid": "needs_big_model",
+    "type": "noul",
+    "probs": {
+     "false": 0.9592961764702705,
+     "true": 0.04070382352972951
+    },
+    "label": "false"
+   },
+   {
+    "row": 233,
+    "qid": "complexity",
+    "type": "score",
+    "probs": {
+     "0": 0.34549542855437315,
+     "1": 0.44266474564855884,
+     "2": 0.16426463158910212,
+     "3": 0.047575194207965896
+    },
+    "label": "2"
+   },
+   {
+    "row": 234,
+    "qid": "intent",
+    "type": "choice",
+    "probs": {
+     "coding": 0.00533842637733612,
+     "writing": 0.0023856503936198897,
+     "factual_qa": 0.5921544097611863,
+     "analysis": 0.014386135270858446,
+     "chitchat": 0.33904800880964236,
+     "other": 0.046687369387356854
+    },
+    "label": "factual_qa"
+   },
+   {
+    "row": 234,
+    "qid": "needs_big_model",
+    "type": "noul",
+    "probs": {
+     "false": 0.8789652716959309,
+     "true": 0.12103472830406917
+    },
+    "label": "false"
+   },
+   {
+    "row": 234,
+    "qid": "complexity",
+    "type": "score",
+    "probs": {
+     "0": 0.25868933340082567,
+     "1": 0.3751697819806473,
+     "2": 0.24314780854789977,
+     "3": 0.12299307607062727
+    },
+    "label": "1"
+   },
+   {
+    "row": 235,
+    "qid": "intent",
+    "type": "choice",
+    "probs": {
+     "coding": 0.0008482640931839161,
+     "writing": 0.0037525557379101604,
+     "factual_qa": 0.269768866774273,
+     "analysis": 0.060981106659080915,
+     "chitchat": 0.6036681000764711,
+     "other": 0.060981106659080915
+    },
+    "label": "factual_qa"
+   },
+   {
+    "row": 235,
+    "qid": "needs_big_model",
+    "type": "noul",
+    "probs": {
+     "false": 0.9132847394038306,
+     "true": 0.0867152605961694
+    },
+    "label": "false"
+   },
+   {
+    "row": 235,
+    "qid": "complexity",
+    "type": "score",
+    "probs": {
+     "0": 0.19959529227528497,
+     "1": 0.608831956823944,
+     "2": 0.16573942108938933,
+     "3": 0.02583332981138171
+    },
+    "label": "1"
+   },
+   {
+    "row": 236,
+    "qid": "needs_big_model",
+    "type": "noul",
+    "probs": {
+     "false": 0.8247634399788034,
+     "true": 0.1752365600211966
+    },
+    "label": "false"
+   },
+   {
+    "row": 237,
+    "qid": "needs_big_model",
+    "type": "noul",
+    "probs": {
+     "false": 0.9776747986657045,
+     "true": 0.022325201334295445
+    },
+    "label": "false"
+   },
+   {
+    "row": 237,
+    "qid": "complexity",
+    "type": "score",
+    "probs": {
+     "0": 0.5934700689525312,
+     "1": 0.3846287250226026,
+     "2": 0.019653898679935434,
+     "3": 0.0022473073449308357
+    },
+    "label": "0"
+   },
+   {
+    "row": 238,
+    "qid": "intent",
+    "type": "choice",
+    "probs": {
+     "coding": 0.9983372817299606,
+     "writing": 0.00012519612371651105,
+     "factual_qa": 0.0002801543196077842,
+     "analysis": 0.0004892948845298649,
+     "chitchat": 0.0002475033138730642,
+     "other": 0.0005205696283121626
+    },
+    "label": "coding"
+   },
+   {
+    "row": 238,
+    "qid": "needs_big_model",
+    "type": "noul",
+    "probs": {
+     "false": 0.20373954761804502,
+     "true": 0.796260452381955
+    },
+    "label": "true"
+   },
+   {
+    "row": 239,
+    "qid": "intent",
+    "type": "choice",
+    "probs": {
+     "coding": 0.9902113502222238,
+     "writing": 0.00018009069794302552,
+     "factual_qa": 0.006967451720478617,
+     "analysis": 0.0007488230795432409,
+     "chitchat": 0.0013078352761215844,
+     "other": 0.0005844490036897417
+    },
+    "label": "coding"
+   },
+   {
+    "row": 240,
+    "qid": "intent",
+    "type": "choice",
+    "probs": {
+     "coding": 0.011811073627468553,
+     "writing": 0.48616110282433755,
+     "factual_qa": 0.03833051319860733,
+     "analysis": 0.026429889182134007,
+     "chitchat": 0.08062002642672454,
+     "other": 0.35664739474072804
+    },
+    "label": "factual_qa"
+   },
+   {
+    "row": 241,
+    "qid": "needs_big_model",
+    "type": "noul",
+    "probs": {
+     "false": 0.5918817520141602,
+     "true": 0.40811824798583984
+    },
+    "label": "false"
+   },
+   {
+    "row": 242,
+    "qid": "intent",
+    "type": "choice",
+    "probs": {
+     "coding": 0.9923220920215111,
+     "writing": 0.00011696570467233974,
+     "factual_qa": 0.0007053356260093697,
+     "analysis": 0.00016963202150939427,
+     "chitchat": 0.006168540501442217,
+     "other": 0.000517434124855612
+    },
+    "label": "coding"
+   },
+   {
+    "row": 242,
+    "qid": "needs_big_model",
+    "type": "noul",
+    "probs": {
+     "false": 0.7644457448853774,
+     "true": 0.23555425511462258
+    },
+    "label": "false"
+   },
+   {
+    "row": 242,
+    "qid": "complexity",
+    "type": "score",
+    "probs": {
+     "0": 0.008642938116832645,
+     "1": 0.2305659388090065,
+     "2": 0.748256515685566,
+     "3": 0.012534607388594857
+    },
+    "label": "2"
+   },
+   {
+    "row": 243,
+    "qid": "needs_big_model",
+    "type": "noul",
+    "probs": {
+     "false": 0.9732364452378319,
+     "true": 0.02676355476216806
+    },
+    "label": "false"
+   },
+   {
+    "row": 244,
+    "qid": "intent",
+    "type": "choice",
+    "probs": {
+     "coding": 0.9753906273864232,
+     "writing": 0.0016505774352667804,
+     "factual_qa": 0.0030670287537441616,
+     "analysis": 0.0010054735614324069,
+     "chitchat": 0.0025467912574410087,
+     "other": 0.01633950160569246
+    },
+    "label": "coding"
+   },
+   {
+    "row": 244,
+    "qid": "needs_big_model",
+    "type": "noul",
+    "probs": {
+     "false": 0.9925695556238957,
+     "true": 0.007430444376104301
+    },
+    "label": "false"
+   },
+   {
+    "row": 244,
+    "qid": "complexity",
+    "type": "score",
+    "probs": {
+     "0": 0.6473092507625778,
+     "1": 0.32743245721546127,
+     "2": 0.0228071103505637,
+     "3": 0.0024511816713971876
+    },
+    "label": "1"
+   },
+   {
+    "row": 245,
+    "qid": "needs_big_model",
+    "type": "noul",
+    "probs": {
+     "false": 0.8061277981920363,
+     "true": 0.19387220180796375
+    },
+    "label": "false"
+   },
+   {
+    "row": 245,
+    "qid": "complexity",
+    "type": "score",
+    "probs": {
+     "0": 0.06084484359117836,
+     "1": 0.4418608934813548,
+     "2": 0.47010375032413987,
+     "3": 0.027190512603326958
+    },
+    "label": "1"
+   },
+   {
+    "row": 246,
+    "qid": "intent",
+    "type": "choice",
+    "probs": {
+     "coding": 7.625686578188487e-05,
+     "writing": 0.9982299044931263,
+     "factual_qa": 8.631679378916995e-05,
+     "analysis": 0.0002801241889290401,
+     "chitchat": 0.00023260878133951198,
+     "other": 0.0010947888770340495
+    },
+    "label": "writing"
+   },
+   {
+    "row": 246,
+    "qid": "needs_big_model",
+    "type": "noul",
+    "probs": {
+     "false": 0.9132848109816071,
+     "true": 0.0867151890183929
+    },
+    "label": "false"
+   },
+   {
+    "row": 246,
+    "qid": "complexity",
+    "type": "score",
+    "probs": {
+     "0": 0.0052671029503634,
+     "1": 0.40285115085917067,
+     "2": 0.5842430232228446,
+     "3": 0.007638722967621357
+    },
+    "label": "2"
+   },
+   {
+    "row": 247,
+    "qid": "needs_big_model",
+    "type": "noul",
+    "probs": {
+     "false": 0.9776747986657045,
+     "true": 0.022325201334295445
+    },
+    "label": "true"
+   },
+   {
+    "row": 248,
+    "qid": "needs_big_model",
+    "type": "noul",
+    "probs": {
+     "false": 0.954172544522788,
+     "true": 0.045827455477211954
+    },
+    "label": "false"
+   },
+   {
+    "row": 249,
+    "qid": "needs_big_model",
+    "type": "noul",
+    "probs": {
+     "false": 0.5,
+     "true": 0.5
+    },
+    "label": "true"
+   }
+  ]
+ }
+}

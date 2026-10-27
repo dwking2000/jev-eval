@@ -1,0 +1,12 @@
+{"id": "support_triage-d0000", "family": "support_triage", "style": "messy_context", "realism": 4, "persona": "meticulous over-explainer", "corruptions": ["ALL CAPS shouting in parts", "typos and autocorrect substitutions"], "alt": {}}
+{"id": "support_triage-d0001", "family": "support_triage", "style": "messy_context", "realism": 3, "persona": "corporate boilerplate writer", "corruptions": ["contradicts itself or changes its mind halfway", "quoted reply chain (> lines) with an older message below"], "alt": {}}
+{"id": "support_triage-d0002", "family": "support_triage", "style": "clear", "realism": 4, "persona": "stressed first-time user", "corruptions": ["all-lowercase, no punctuation, run-on"], "alt": {}}
+{"id": "support_triage-d0004", "family": "support_triage", "style": "lure", "realism": 3, "persona": "meticulous over-explainer", "corruptions": ["two unrelated topics in one message"], "alt": {}}
+{"id": "support_triage-d0005", "family": "support_triage", "style": "clear", "realism": 4, "persona": "polite but vague", "corruptions": [], "alt": {}}
+{"id": "support_triage-d0007", "family": "support_triage", "style": "lure", "realism": 4, "persona": "polite but vague", "corruptions": [], "alt": {}}
+{"id": "support_triage-d0008", "family": "support_triage", "style": "clear", "realism": 4, "persona": "someone typing in a hurry on mobile", "corruptions": [], "alt": {}}
+{"id": "support_triage-d0009", "family": "support_triage", "style": "messy_context", "realism": 4, "persona": "non-native English speaker", "corruptions": ["typos and autocorrect substitutions"], "alt": {}}
+{"id": "support_triage-d0010", "family": "support_triage", "style": "lure", "realism": 4, "persona": "someone typing in a hurry on mobile", "corruptions": ["quoted reply chain (> lines) with an older message below"], "alt": {}}
+{"id": "support_triage-d0013", "family": "support_triage", "style": "clear", "realism": 4, "persona": "angry power user", "corruptions": ["typos and autocorrect substitutions"], "alt": {}}
+{"id": "support_triage-d0014", "family": "support_triage", "style": "lure", "realism": 3, "persona": "polite but vague", "corruptions": ["missing context: refers to 'this' / 'it' / 'what we discussed' without saying what", "mixed languages or transliteration", "rambling, buries the point at the end"], "alt": {}}
+{"id": "support_triage-d0015", "family": "support_triage", "style": "lure", "realism": 4, "persona": "teenager texting style", "corruptions": ["OCR/scan noise (broken words, stray characters)"], "alt": {}}

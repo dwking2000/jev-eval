@@ -1,0 +1,20 @@
+373 rows, engines: pplx=http://127.0.0.1:8767
+engine pplx ...
+  25/373 rows
+  50/373 rows
+  75/373 rows
+  100/373 rows
+  125/373 rows
+  150/373 rows
+  175/373 rows
+  200/373 rows
+  225/373 rows
+  250/373 rows
+  275/373 rows
+  300/373 rows
+  325/373 rows
+  350/373 rows
+655 questions answered by every engine; the table and the differences use only those.
+
+engine             answered failed rows     acc   brier log loss    ece   automate @5% error
+pplx                    655           0   86.9%   0.179    0.302  0.028    77.1% (p>=0.76)

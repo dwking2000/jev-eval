@@ -1,0 +1,12 @@
+venv/
+pplx-venv/
+jev-style/
+pplx-src/
+typed-decisions/
+synth/work/
+*.log
+*.err
+req.json
+results_td_*.json
+results_tickets_*.json
+__pycache__/
