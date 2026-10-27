@@ -1,0 +1,33 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: jev-style
+  labels: {app: jev-style}
+spec:
+  replicas: 1                      # mostly idle; bump or add an HPA if needed
+  selector:
+    matchLabels: {app: jev-style}
+  template:
+    metadata:
+      labels: {app: jev-style}
+    spec:
+      securityContext: {runAsNonRoot: true, runAsUser: 10001, seccompProfile: {type: RuntimeDefault}}
+      containers:
+        - name: jev-style
+          image: REGISTRY/jev-style:0.8b-cpu     # TODO: your ECR image
+          ports: [{containerPort: 8765, name: http}]
+          env:
+            - {name: JEV_DEVICE, value: cpu}
+            - name: JEV_API_KEY
+              valueFrom: {secretKeyRef: {name: jev-style, key: api-key}}
+          resources:
+            requests: {cpu: "2", memory: 4Gi}   # 0.8B fp32 is ~3 GB resident; measure and tune
+            limits: {memory: 5Gi}
+          startupProbe:
+            httpGet: {path: /healthz, port: http}
+            periodSeconds: 5
+            failureThreshold: 60                # up to 5 min for model load
+          readinessProbe:
+            httpGet: {path: /healthz, port: http}
+            periodSeconds: 10
+          securityContext: {allowPrivilegeEscalation: false, capabilities: {drop: [ALL]}}

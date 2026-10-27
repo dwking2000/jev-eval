@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: jev-style
+spec:
+  type: ClusterIP                  # internal only; expose via your internal ingress / ALB if other VPC clients need it
+  selector: {app: jev-style}
+  ports: [{name: http, port: 80, targetPort: http}]

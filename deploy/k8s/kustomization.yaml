@@ -1,0 +1,8 @@
+# kubectl apply -k deploy/k8s            (CPU, default)
+# To use the GPU variant, replace deployment-cpu.yaml with deployment-gpu.yaml below.
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+resources:
+  - deployment-cpu.yaml
+  - service.yaml
+  - networkpolicy.yaml

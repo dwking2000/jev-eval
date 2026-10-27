@@ -1,0 +1,37 @@
+# Only if CPU latency is too slow, or for the 2B. Needs the NVIDIA device plugin and a GPU node group (e.g. g4dn/g5).
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: jev-style
+  labels: {app: jev-style}
+spec:
+  replicas: 1
+  selector:
+    matchLabels: {app: jev-style}
+  template:
+    metadata:
+      labels: {app: jev-style}
+    spec:
+      securityContext: {runAsNonRoot: true, runAsUser: 10001, seccompProfile: {type: RuntimeDefault}}
+      nodeSelector: {nvidia.com/gpu.present: "true"}     # adjust to your GPU node labels
+      tolerations:
+        - {key: nvidia.com/gpu, operator: Exists, effect: NoSchedule}
+      containers:
+        - name: jev-style
+          image: REGISTRY/jev-style:0.8b-gpu     # TODO: your ECR image (built with the cu128 TORCH_INDEX)
+          ports: [{containerPort: 8765, name: http}]
+          env:
+            - {name: JEV_DEVICE, value: cuda}
+            - name: JEV_API_KEY
+              valueFrom: {secretKeyRef: {name: jev-style, key: api-key}}
+          resources:
+            requests: {cpu: "1", memory: 4Gi}
+            limits: {memory: 6Gi, nvidia.com/gpu: 1}
+          startupProbe:
+            httpGet: {path: /healthz, port: http}
+            periodSeconds: 5
+            failureThreshold: 60
+          readinessProbe:
+            httpGet: {path: /healthz, port: http}
+            periodSeconds: 10
+          securityContext: {allowPrivilegeEscalation: false, capabilities: {drop: [ALL]}}
